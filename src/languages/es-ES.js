@@ -123,6 +123,7 @@ module.exports = class extends Language {
             COMMAND_RELOAD: (type, name) => `🔃・Recargado la pieza tipo ${type}: ${name}`,
             COMMAND_RELOAD_ALL: (type) => `🔃・Recargado todas las piezas tipo ${type}.`,
             COMMAND_RELOAD_DESCRIPTION: 'Recarga una pieza de Klasa, o todas las piezas de un una colección.',
+            COMMAND_RELOAD_EVERYTHING: '🔃・Recargando todas las piezas',
 
             //reboot
             COMMAND_REBOOT: '🔄・**Reiniciando...**・🔄',
