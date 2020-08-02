@@ -31,14 +31,19 @@ module.exports = class extends Command {
     }
         
     async run(message, [user]) {
-        // This is where you place the code you want to run for your command
+        //nekos.life
+        async function test() {
+            message.send(await neko.sfw.hug());
+        }
+
+        test();
         message.send(`Comando test. Revisa el terminal Bash :3 \n `);
         
 
         message.send(
             new MessageEmbed()
             .setTitle(`${message.author.username} abrazó a ${user.username}`)
-            .setImage(neko.sfw.hug())
+            .setImage()
             .setColor('RANDOM')
         );
     }
