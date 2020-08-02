@@ -22,7 +22,7 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: message.language.get('COMMAND_UTC_DESCRIPTION'),
+            description: language => language.get('COMMAND_UTC_DESCRIPTION'),
             quotedStringSupport: false,
         });
     }

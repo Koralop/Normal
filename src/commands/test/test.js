@@ -1,4 +1,7 @@
 const {Command} = require('klasa'); //klasa
+const {
+    MessageEmbed
+} = require('discord.js');
 
 const client = require('nekos.life'); //nekos.life
 const neko = new client(); //nekos.life
@@ -22,17 +25,22 @@ module.exports = class extends Command {
             subcommands: false,
             description: 'Comando de prueva',
             quotedStringSupport: false,
-            extendedHelp: 'No extended help available ;-; .'
+            extendedHelp: 'No extended help available ;-; .',
+            usage: '<user:user>'
         });
     }
         
-    async run(message, [...params]) {
+    async run(message, [user]) {
         // This is where you place the code you want to run for your command
-        message.send('Comando test. Revisa el terminal Bash :3');
-        async function test() {
-            console.log(await neko.sfw.hug());
-        }
-        test();
+        message.send(`Comando test. Revisa el terminal Bash :3 \n `);
+        
+
+        message.send(
+            new MessageEmbed()
+            .setTitle(`${message.author.username} abrazó a ${user.username}`)
+            .setImage(neko.sfw.hug())
+            .setColor('RANDOM')
+        );
     }
         
 }

@@ -132,7 +132,7 @@ module.exports = class extends Language {
             //ping
             COMMAND_PING: '¿Ping?',
             COMMAND_PING_DESCRIPTION: 'Ejecuta una prueba de conexión a Discord.',
-            COMMAND_PINGPONG: (diff, ping) => ` <a:PandaPing1:454387560031191064> 🏓・¡Pong! \n \n <a:Lel:738106782089740410> ・El viaje duró: ${diff}ms \n <a:Rainbowflyinghearts:736074024156790834> ・Latido: ${ping}ms`,
+            COMMAND_PINGPONG: (diff, ping) => `🏓・¡Pong! \n \n <a:Lel:738106782089740410> ・El viaje duró: ${diff}ms \n <a:Rainbowflyinghearts:736074024156790834> ・Latido: ${ping}ms`,
 
             //invite
             COMMAND_INVITE_SELFBOT: '¿Por qué necesitarías un enlace de invitación para un selfbot?',
