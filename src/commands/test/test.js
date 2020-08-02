@@ -33,7 +33,7 @@ module.exports = class extends Command {
     async run(message, [user]) {
         //nekos.life
         async function work() {
-            let hug = await neko.sfw.hug();
+            var hug = await neko.sfw.hug();
 
         }
 
