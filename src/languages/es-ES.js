@@ -236,7 +236,7 @@ module.exports = class extends Language {
             //vote
             COMMAND_VOTE_DESCRIPTION: 'Vota por nosotros en Top.gg',
             COMMAND_VOTE_TITLE: '🗳・Vote',
-            COMMAND_VOTE: 'Vote por nosotros en Top.gg para hacer crecer al bot',
+            COMMAND_VOTE_TEXT: 'Vote por nosotros en Top.gg para hacer crecer al bot',
             COMMAND_VOTE_LINK: '[Click aquí para votar](https://top.gg/bot/698568850651873299/vote)'
 
         };
