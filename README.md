@@ -6,3 +6,43 @@
 
 
 # DOC EN DESARROLLO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# MyAlejo es feo xd
