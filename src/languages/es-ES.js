@@ -253,13 +253,11 @@ module.exports = class extends Language {
             COMMAND_UPDATE_VERSION: '**Versión del bot: 0.1.0 indev (Big Bang Versions)**',
             COMMAND_UPDATE_NEW_TITLE: '✨・Comandos Nuevos',
             COMMAND_UPDATE_NEW: (prefix) => `Comandos internos de Klasa
-                \n${prefix}help
-                \n${prefix}f
-                \n${prefix}meme
-                \n${prefix}xd
-                \n${prefix}update
-                \n${prefix}utc
-                \n${prefix}vote`,
+                \nf
+                \nmeme
+                \nxd
+                \nutc
+                \nMás...`,
             COMMAND_UPDATE_FIX_TITLE: '🔨・Comandos Reparados/mejorados',
             COMMAND_UPDATE_FIX: 'Actualmente ninguno',
             COMMAND_UPDATE_DELETIONS_TITLE: '🚮・Comandos Eliminados',
@@ -269,6 +267,8 @@ module.exports = class extends Language {
             \nHosteado en Heroku
             \nPresente en Top.gg
             \nOpenSource`,
+            COMMAND_UPDATE_GITHUBTAGS_TITLE: '<:github:699786469404835939>・Más info en GitHub',
+            COMMAND_UPDATE_GITHUBTAGS: '[Click aquí para más info](https://github.com/Gatomo-Bunkers/Normal/releases)',
             COMMAND_UPDATE_FOOTER: 'Normal Bot・Desarrollado por Gátomo・V. 0.1.0 Indev (Big Bang Versions)・MIT license',
             
             //invite
