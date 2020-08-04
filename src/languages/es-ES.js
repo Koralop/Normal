@@ -234,7 +234,7 @@ module.exports = class extends Language {
             COMMAND_UTC: 'Hora UTC: ',
 
             //vote
-            COMMAND_VOTE_DESCRIPTION: 'Vota por nosotros en Top.gg',
+            COMMAND_VOTE_DESCRIPTION: 'Vote por nosotros en Top.gg',
             COMMAND_VOTE_TITLE: '🗳・VOTE',
             COMMAND_VOTE_TEXT: 'Vote por nosotros en Top.gg para hacer crecer al bot',
             COMMAND_VOTE_TEXT_LINK: 'Link de votación',
@@ -267,7 +267,7 @@ module.exports = class extends Language {
             COMMAND_UPDATE_FOOTER: 'Normal Bot・Desarrollado por Gátomo・V. 0.1.0 Indev (Big Bang Versions)・MIT license',
             
             //invite
-            COMMAND_INVITE_DESCRIPTION: 'Vota por nosotros en Top.gg',
+            COMMAND_INVITE_DESCRIPTION: 'Te ofrece el link de invitación del bot',
             COMMAND_INVITE_TITLE: '🎁・INVITE',
             COMMAND_INVITE_TEXT: 'Invite a Normal para añadirlo a su server',
             COMMAND_INVITE_TEXT_LINK: 'Link de invitación',
