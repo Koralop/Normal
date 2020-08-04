@@ -40,13 +40,7 @@ module.exports = class extends Command {
         message.send(
             new MessageEmbed()
             .setTitle(`${message.author.username} abrazó a ${user.username}`)
-                .setImage(
-                async function work() {
-                    var hug = await neko.sfw.hug();
-                    },
-                    work(),
-                hug
-            )
+            .setImage()
             .setColor('RANDOM')
         );
     }

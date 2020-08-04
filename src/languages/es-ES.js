@@ -235,10 +235,40 @@ module.exports = class extends Language {
 
             //vote
             COMMAND_VOTE_DESCRIPTION: 'Vota por nosotros en Top.gg',
-            COMMAND_VOTE_TITLE: '🗳・Vote',
+            COMMAND_VOTE_TITLE: '🗳・VOTE',
             COMMAND_VOTE_TEXT: 'Vote por nosotros en Top.gg para hacer crecer al bot',
-            COMMAND_VOTE_LINK: '[Click aquí para votar](https://top.gg/bot/698568850651873299/vote)'
+            COMMAND_VOTE_TEXT_LINK: 'Link de votación',
+            COMMAND_VOTE_LINK: '[Click aquí para votar](https://top.gg/bot/698568850651873299/vote)',
 
+            //meme
+            COMMAND_MEME_DESCRIPTION: 'Muestra un meme aleatorio',
+
+            //xd
+            COMMAND_XD_DESCRIPTION: 'Reacciona con un xd',
+
+            //update
+            COMMAND_UPDATE_DESCRIPTION: 'Provee toda la información de las actualizaciones del bot',
+            COMMAND_UPDATE_TITLE: '📤・UPDATE',
+            COMMAND_UPDATE_TEXT: 'Aquí se muestra la versión actual del bot, los comandos nuevos modificados y eliminados y las novedades',
+            COMMAND_UPDATE_VERSION: '**Versión del bot: 0.1.0 indev (Big Bang Versions)**',
+            COMMAND_UPDATE_NEW_TITLE: '✨・Comandos Nuevos',
+            COMMAND_UPDATE_NEW: (prefix) => `/``Comandos internos de Klasa/``
+                \n/``${prefix}help/``
+                \n/``${prefix}f/``
+                \n/``${prefix}meme/``
+                \n/``${prefix}xd/``
+                \n/``${prefix}update/``
+                \n/``${prefix}utc/``
+                \n/``${prefix}vote/``
+            `,
+            COMMAND_UPDATE_FIX_TITLE: '🔨・Comandos Reparados/mejorados',
+            COMMAND_UPDATE_FIX: '/``Actualmente ninguno/``',
+            COMMAND_UPDATE_DELETIONS_TITLE: '🚮・Comandos Eliminados',
+            COMMAND_UPDATE_DELETIONS: '/``Actualmente ninguno/``',
+            COMMAND_UPDATE_WHATSNEW_TITLE: '🥗・Novedades',
+            COMMAND_UPDATE_WHATSNEW: '/``Klasa como Framework/``\n/``Hosteado en Heroku/``\n/``Presente en Top.gg/``\n/``OpenSource/``',
+            COMMAND_UPDATE_FOOTER: 'Normal Bot・Desarrollado por Gátomo・V. 0.1.0 Indev (Big Bang Versions)・MIT license'
+            
         };
     }
 

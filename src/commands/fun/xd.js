@@ -18,9 +18,8 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: 'pos xd',
+            description: language => language.get('COMMAND_XD_DESCRIPTION'),
             quotedStringSupport: false,
-            extendedHelp: 'Muestra un xd'
         });
     }
 
@@ -28,7 +27,7 @@ module.exports = class extends Command {
         //embed
         message.send(
             new MessageEmbed()
-                .setTitle('xdddd')
+                .setTitle('xddd')
                 .setColor('RANDOM')
         );
     }

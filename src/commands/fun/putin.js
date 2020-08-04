@@ -24,7 +24,6 @@ module.exports = class extends Command {
             subcommands: false,
             description: 'Un meme de Putin',
             quotedStringSupport: false,
-            extendedHelp: 'Muestra un meme de Putin y Minecraft'
         });
     }
 

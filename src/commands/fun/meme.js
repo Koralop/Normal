@@ -18,9 +18,8 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: 'Muestra un meme',
+            description: language => language.get('COMMAND_MEME_DESCRIPTION'),
             quotedStringSupport: false,
-            extendedHelp: 'Pues un meme...'
         });
     }
 

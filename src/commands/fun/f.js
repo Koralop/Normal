@@ -42,7 +42,7 @@ module.exports = class extends Command {
         //embed
         message.send(
             new MessageEmbed()
-                .setTitle()
+                .setTitle(message.language.get('COMMAND_F'))
                 .setImage(fgif)
                 .setColor('RANDOM')
         );
