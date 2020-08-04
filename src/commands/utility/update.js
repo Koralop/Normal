@@ -34,7 +34,7 @@ module.exports = class extends Command {
             new MessageEmbed()
             .setTitle(message.language.get('COMMAND_UPDATE_TITLE'))
             .setDescription(message.language.get('COMMAND_UPDATE_TEXT'))
-            .addField(message.language.get('COMMAND_UPDATE_VERSION'), '\n ', false)
+            .addField(message.language.get('COMMAND_UPDATE_VERSION'), '\n.', false)
             .addField(message.language.get('COMMAND_UPDATE_NEW_TITLE'), message.language.get('COMMAND_UPDATE_NEW'), true)
             .addField(message.language.get('COMMAND_UPDATE_FIX_TITLE'), message.language.get('COMMAND_UPDATE_FIX'), true)
             .addField(message.language.get('COMMAND_UPDATE_DELETIONS_TITLE'), message.language.get('COMMAND_UPDATE_DELETIONS'), true)
