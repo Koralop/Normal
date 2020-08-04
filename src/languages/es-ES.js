@@ -262,7 +262,7 @@ module.exports = class extends Language {
             \nHosteado en Heroku
             \nPresente en Top.gg
             \nOpenSource`,
-            COMMAND_UPDATE_GITHUBTAGS_TITLE: '<:github:699786469404835939>・Más info en GitHub',
+            COMMAND_UPDATE_GITHUBTAGS_TITLE: '😸・Más info en GitHub',
             COMMAND_UPDATE_GITHUBTAGS: '[Click aquí para más info](https://github.com/Gatomo-Bunkers/Normal/releases)',
             COMMAND_UPDATE_FOOTER: 'Normal Bot・Desarrollado por Gátomo・V. 0.1.0 Indev (Big Bang Versions)・MIT license',
             
