@@ -252,21 +252,23 @@ module.exports = class extends Language {
             COMMAND_UPDATE_TEXT: 'Aquí se muestra la versión actual del bot, los comandos nuevos modificados y eliminados y las novedades',
             COMMAND_UPDATE_VERSION: '**Versión del bot: 0.1.0 indev (Big Bang Versions)**',
             COMMAND_UPDATE_NEW_TITLE: '✨・Comandos Nuevos',
-            COMMAND_UPDATE_NEW: (prefix) => ```Comandos internos de Klasa``
-                \n``${prefix}help``
-                \n``${prefix}f``
-                \n``${prefix}meme``
-                \n``${prefix}xd``
-                \n``${prefix}update``
-                \n``${prefix}utc``
-                \n``${prefix}vote``
-            `,
+            COMMAND_UPDATE_NEW: (prefix) => `Comandos internos de Klasa
+                \n${prefix}help
+                \n${prefix}f
+                \n${prefix}meme
+                \n${prefix}xd
+                \n${prefix}update
+                \n${prefix}utc
+                \n${prefix}vote`,
             COMMAND_UPDATE_FIX_TITLE: '🔨・Comandos Reparados/mejorados',
-            COMMAND_UPDATE_FIX: '``Actualmente ninguno``',
+            COMMAND_UPDATE_FIX: 'Actualmente ninguno',
             COMMAND_UPDATE_DELETIONS_TITLE: '🚮・Comandos Eliminados',
-            COMMAND_UPDATE_DELETIONS: '``Actualmente ninguno``',
+            COMMAND_UPDATE_DELETIONS: 'Actualmente ninguno',
             COMMAND_UPDATE_WHATSNEW_TITLE: '🥗・Novedades',
-            COMMAND_UPDATE_WHATSNEW: '``Klasa como Framework``\n``Hosteado en Heroku``\n``Presente en Top.gg``\n``OpenSource``',
+            COMMAND_UPDATE_WHATSNEW: `Klasa como Framework
+            \nHosteado en Heroku
+            \nPresente en Top.gg
+            \nOpenSource`,
             COMMAND_UPDATE_FOOTER: 'Normal Bot・Desarrollado por Gátomo・V. 0.1.0 Indev (Big Bang Versions)・MIT license'
             
         };
