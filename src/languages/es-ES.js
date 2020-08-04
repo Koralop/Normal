@@ -269,8 +269,14 @@ module.exports = class extends Language {
             \nHosteado en Heroku
             \nPresente en Top.gg
             \nOpenSource`,
-            COMMAND_UPDATE_FOOTER: 'Normal Bot・Desarrollado por Gátomo・V. 0.1.0 Indev (Big Bang Versions)・MIT license'
+            COMMAND_UPDATE_FOOTER: 'Normal Bot・Desarrollado por Gátomo・V. 0.1.0 Indev (Big Bang Versions)・MIT license',
             
+            //invite
+            COMMAND_INVITE_DESCRIPTION: 'Vota por nosotros en Top.gg',
+            COMMAND_INVITE_TITLE: '🎁・INVITE',
+            COMMAND_INVITE_TEXT: 'Invite a Normal para añadirlo a su server',
+            COMMAND_INVITE_TEXT_LINK: 'Link de invitación',
+            COMMAND_INVITE_LINK: '[Click aquí para invitar](https://discord.com/api/oauth2/authorize?client_id=698568850651873299&permissions=8&scope=bot)',
         };
     }
 

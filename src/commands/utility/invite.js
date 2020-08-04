@@ -9,12 +9,13 @@ module.exports = class extends Command {
 
     constructor(...args) {
         super(...args, {
-            name: 'vote',
+            name: 'invite',
             enabled: true,
             runIn: ['text'],
             cooldown: 0,
             deletable: false,
             bucket: 1,
+            aliases: ['inv'],
             guarded: false,
             nsfw: false,
             permissionLevel: 0,
@@ -31,10 +32,10 @@ module.exports = class extends Command {
         //embed
         message.send(
             new MessageEmbed()
-            .setTitle(message.language.get('COMMAND_VOTE_TITLE'))
-            .setDescription(message.language.get('COMMAND_VOTE_TEXT'))
-            .addField(`${message.language.get('COMMAND_VOTE_TEXT_LINK')}`, `${message.language.get('COMMAND_VOTE_LINK')}`, true)
-            .setImage('https://media.giphy.com/media/l41YkEYrcqrPOpuIE/giphy.gif')
+            .setTitle(message.language.get('COMMAND_INVITE_TITLE'))
+            .setDescription(message.language.get('COMMAND_INVITE_TEXT'))
+            .addField(`${message.language.get('COMMAND_INVITE_TEXT_LINK')}`, `${message.language.get('COMMAND_INVITE_LINK')}`, true)
+            .setImage('https://media.giphy.com/media/2yvPrTHxX6wIQM0bWT/giphy.gif')
             .setColor('RANDOM')
         );
     }
