@@ -22,7 +22,7 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: language => language.get('COMMAND_VOTE_DESCRIPTION'),
+            description: language => language.get('COMMAND_INVITE_DESCRIPTION'),
             quotedStringSupport: false,
         });
     }
