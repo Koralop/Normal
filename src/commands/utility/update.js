@@ -38,8 +38,8 @@ module.exports = class extends Command {
             .addField(message.language.get('COMMAND_UPDATE_FIX_TITLE'), message.language.get('COMMAND_UPDATE_FIX'), true)
             .addField(message.language.get('COMMAND_UPDATE_DELETIONS_TITLE'), message.language.get('COMMAND_UPDATE_DELETIONS'), true)
             .addField(message.language.get('COMMAND_UPDATE_WHATSNEW_TITLE'), message.language.get('COMMAND_UPDATE_WHATSNEW'), true)
-            .setFooter(message.language.get('COMMAND_UPDATE_FOOTER'), client.user.avatarURL())
-            .setThumbnail(client.user.avatarURL())
+            .setFooter(message.language.get('COMMAND_UPDATE_FOOTER'))
+            .setImage('https://media.giphy.com/media/FP47IFqWyXfdKYU6VG/giphy.gif')
             .setColor('RANDOM')
         );
     }
