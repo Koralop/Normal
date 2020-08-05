@@ -250,7 +250,7 @@ module.exports = class extends Language {
             COMMAND_UPDATE_DESCRIPTION: 'Provee toda la información de las actualizaciones del bot',
             COMMAND_UPDATE_TITLE: '📤・UPDATE',
             COMMAND_UPDATE_TEXT: 'Aquí se muestra la versión actual del bot, los comandos nuevos modificados y eliminados y las novedades',
-            COMMAND_UPDATE_VERSION: '**Versión del bot: 0.1.0 indev (Big Bang Versions)**',
+            COMMAND_UPDATE_VERSION: '**Versión del bot: 0.1.0 (Big Bang Versions)**',
             COMMAND_UPDATE_NEW_TITLE: '✨・Comandos Nuevos',
             COMMAND_UPDATE_NEW:'Comandos internos de Klasa ・ f ・ meme ・ xd ・ utc ・ Más...',
             COMMAND_UPDATE_FIX_TITLE: '🔨・Comandos Reparados/mejorados',
