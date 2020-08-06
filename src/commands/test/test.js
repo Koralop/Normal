@@ -34,7 +34,6 @@ module.exports = class extends Command {
         //nekos.life
         var hugimg = await neko.sfw.hug();
  
-       message.send(`Comando test. Revisa el terminal Bash :3 \n `);
         
 
         message.send(
