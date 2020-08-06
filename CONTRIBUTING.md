@@ -30,7 +30,7 @@
 
 
 # GUÍA DE DESARROLLO DE NORMAL
-**SI DESEAS CONTRIBUIR AL DESARROLLO DE NORMAL, PORFAVOR, LÉETE ESTO PARA EVITAR ERRORES O MALENTENDIDOS, ENTRE OTROS**
+**SI DESEAS CONTRIBUIR AL DESARROLLO DE NORMAL, PORFAVOR, LÉETE ESTO PARA EVITAR ERRORES O MALENTENDIDOS, ENTRE OTROS Y TODO LO MOSTRADO AQUÍ ES UNA PEQUEÑA GUÍA, PARA MÁS INFORMACIÓN, REVISA LA PÁGINA OFICIAL DE KLASA**
 
 Buenas. Al parecer deseas participar en el desarrollo de Normal, pero tienes que tener claro algunas cosas antes de empezar.
 
@@ -79,3 +79,29 @@ async run(message, [...params]) {
 // Aquí irá el Código del bot con sus embeds if else y todas esas cosas
 }
 ```
+
+El primer bloque será todos los datos del comando, su nombre, cooldown, si es nsfw, entre otros.
+El segundo bloque va el código que se ejecutará cuando el comando sea escrito
+
+### Uso de comandos
+Un comando ping sería así
+```js
+//todo lo anterior. Lo llamo ping, sin cooldown y con aliase PingPong
+async run(message, [...params]) {
+message.send('Pong!!!');
+}
+```
+Un embed sería así
+```js
+const  {MessageEmbed}  =  require('discord.js');
+//Todo lo anterior, pero en este caso importamos lo visto aquí
+message.send( new MessageEmbed()
+.setTitle('xd');
+.setColor('RANDOM')
+);
+```
+Para los embeds, se usa Discord.js
+
+## Lenguajes
+Lo siento pero me he cansado de escribir xd
+Ya seguiré desarrollándolo
