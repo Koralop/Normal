@@ -32,7 +32,7 @@ module.exports = class extends Command {
         
     async run(message, [user]) {
         //nekos.life
-        var hugimg = await utils.neko.sfw.hug();
+        var hugimg = await neko.sfw.hug();
  
        message.send(`Comando test. Revisa el terminal Bash :3 \n `);
         
