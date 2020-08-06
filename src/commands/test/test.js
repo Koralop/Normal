@@ -32,7 +32,7 @@ module.exports = class extends Command {
         
     async run(message, [user]) {
         //nekos.life
-        
+        var hugimg = await utils.neko.sfw.hug();
  
        message.send(`Comando test. Revisa el terminal Bash :3 \n `);
         
@@ -40,7 +40,7 @@ module.exports = class extends Command {
         message.send(
             new MessageEmbed()
             .setTitle(`${message.author.username} abrazó a ${user.username}`)
-            .setImage()
+            .setImage(hugimg.url)
             .setColor('RANDOM')
         );
     }

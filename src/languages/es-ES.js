@@ -272,6 +272,12 @@ module.exports = class extends Language {
             COMMAND_INVITE_TEXT: 'Invite a Normal para añadirlo a su server',
             COMMAND_INVITE_TEXT_LINK: 'Link de invitación',
             COMMAND_INVITE_LINK: '[Click aquí para invitar](https://discord.com/api/oauth2/authorize?client_id=698568850651873299&permissions=8&scope=bot)',
+
+            //ban
+            COMMAND_BAN_DESCRIPTION: 'Banea a un usuario del server',
+            COMMAND_BAN_AUTOBAN: 'Porqué te banearías a tí mismo? No tiene sentido :v',
+            COMMAND_BAN_NORMALBAN: 'Por Por ... porqué me quieres banear? que he hecho? ;-;',
+            COMMAND_BAN_ROLE
         };
     }
 
