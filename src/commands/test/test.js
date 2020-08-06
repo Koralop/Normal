@@ -18,7 +18,7 @@ module.exports = class extends Command {
             bucket: 1,
             aliases: ['commandtest', 'testcommand'],
             guarded: false,
-            nsfw: false,
+            nsfw: true,
             permissionLevel: 0,
             requiredPermissions: [],
             requiredSettings: [],
@@ -32,14 +32,14 @@ module.exports = class extends Command {
         
     async run(message, [user]) {
         //nekos.life
-        var kissimg = await neko.sfw.kiss();
+        //var yuriimg = await neko.nsfw.yuri();
  
         
 
         message.send(
             new MessageEmbed()
-            .setTitle(`${message.author.username} besó a ${user.username}`)
-            .setImage(kissimg.url)
+                .setTitle('xd')
+            //.setImage(yuriimg.url)
             .setColor('RANDOM')
         );
     }
