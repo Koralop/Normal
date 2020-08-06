@@ -67,6 +67,9 @@ Pues vamos con los puntos para empezar a usarlo
 3. Escribe el comando ``n!help`` para ayuda y un listado de comandos
 4. Ya podrás usarlo 🎉🥳
 
+## ¿Deseas ayudar al desarrollo?
+Si deseas ayudar a desarrollar Normal, porfavor, léete el CONTRIBUTING.md
+[Click aquí para ir al CONTRIBUTING.md](https://github.com/Gatomo-Bunkers/Normal/blob/master/CONTRIBUTING.md)
 
 ## Contactos
 
