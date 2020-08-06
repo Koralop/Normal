@@ -75,7 +75,7 @@ module.exports = class extends Language {
             INHIBITOR_COOLDOWN: (remaining) => `⏳・Acabas de usar este comando. Espérate ${remaining} segundos.`,
             INHIBITOR_DISABLED: '🛌・**Este comando está desactivado**',
             INHIBITOR_MISSING_BOT_PERMS: (missing) => `<:Tor:731095612665102437>・Permisos insuficientes, necesito: **${missing}**`,
-            INHIBITOR_NSFW: '🔞🔥・Porfavor, usa comandos NSFW en un canal NSFW, que aquí que hay niños',
+            INHIBITOR_NSFW: '🔞🔥・Porfavor, usa comandos NSFW en un canal NSFW, que aquí hay niños xd',
             INHIBITOR_PERMISSIONS: '⛔・No tienes permisos para usar este comando',
             INHIBITOR_REQUIRED_CONFIGS: (settings) => `<:Tor:731095612665102437>・El servidor no tiene las siguientes clave${settings.length > 1 ? 's' : ''}: **${settings.join(', ')}** y no puede ser ejecutado.`,
             INHIBITOR_RUNIN: (types) => `<:Tor:731095612665102437>・Este comando sólo está disponible en los canales de tipo: ${types}.`,

@@ -32,14 +32,13 @@ module.exports = class extends Command {
         
     async run(message, [user]) {
         //nekos.life
-        //var yuriimg = await neko.nsfw.yuri();
+        var yuriimg = await neko.nsfw.yuri();
  
         
 
         message.send(
             new MessageEmbed()
-                .setTitle('xd')
-            //.setImage(yuriimg.url)
+            .setImage(yuriimg.url)
             .setColor('RANDOM')
         );
     }
