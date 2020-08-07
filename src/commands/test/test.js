@@ -1,7 +1,5 @@
 const {Command} = require('klasa'); //klasa
-const {
-    MessageEmbed
-} = require('discord.js');
+const {MessageEmbed} = require('discord.js');
 
 const client = require('nekos.life'); //nekos.life
 const neko = new client(); //nekos.life
@@ -18,11 +16,11 @@ module.exports = class extends Command {
             bucket: 1,
             aliases: ['commandtest', 'testcommand'],
             guarded: false,
-            nsfw: true,
+            nsfw: false,
             permissionLevel: 0,
             requiredPermissions: [],
             requiredSettings: [],
-            subcommands: false,
+            subcommands: false,                    
             description: 'Comando de prueva',
             quotedStringSupport: false,
             extendedHelp: 'No extended help available ;-; .',
@@ -32,13 +30,14 @@ module.exports = class extends Command {
         
     async run(message, [user]) {
         //nekos.life
-        var yuriimg = await neko.nsfw.yuri();
+        var hugimg = await neko.sfw.hug();
  
         
 
         message.send(
             new MessageEmbed()
-            .setImage(yuriimg.url)
+            .setTitle(`${message.author.username} abrazó a ${user.username}`)
+            .setImage(hugimg.url)
             .setColor('RANDOM')
         );
     }
