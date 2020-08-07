@@ -54,8 +54,7 @@ Actualmente lo desarrollan Gátomo, con la ayuda de Phamzito, Lil MARCROCK y Cac
 
  - [Gátomo (Creador)](https://github.com/gatomo-oficial)
  - [Phamzito (ayudante)](https://github.com/phamzito)
- - [Lil MARCROCK (ayudante)]([https://github.com/MARCROCK22](https://github.com/MARCROCK22))
- - [Cactus Random (ayudante)](https://github.com/cactus711)
+ - [Lil MARCROCK (ayudante)]([https://github.com/MARCROCK22](https://github.com/MARCROCK22)
 
 
 ## ¿Como empiezo a usarlo?
