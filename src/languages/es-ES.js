@@ -94,7 +94,7 @@ module.exports = class extends Language {
             ].filter(val => val !== '').join('\n'),
 
             //eval
-            COMMAND_EVAL_DESCRIPTION: '<:javascript:553682981622120484> <:JavaScriptECMA:703449987916496946>・Evalúa Javascript arbitrario. Reservado para el dueño del bot.',
+            COMMAND_EVAL_DESCRIPTION: '<:javascript:553682981622120484> <:JavaScriptECMA:703449987916496946>・Evalúa Javascript arbitrario. Reservado para Gátomo.',
             COMMAND_EVAL_EXTENDEDHELP: [
                 'El comando eval ejecuta el código tal y como está escrito, cualquier error será capturado.',
                 'También usa la herramienta "flags". Escribe --silent, --depth=number o --async para personalizar la salida.',
