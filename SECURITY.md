@@ -1,21 +1,22 @@
-# Security Policy
+# Politica de seguridad
 
-## Supported Versions
+## Versiones
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Estas son las versiones soportadas con Security Updates. La última versión será la única son soporte.
 
-| Version | Supported          |
+| Versión | Soportado          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 0.2.0   | 🔁 En desarrollo|
+| 0.1.0   | :white_check_mark: Con Security Updates |
 
-## Reporting a Vulnerability
+## Reportar una vulnerabilidad
 
-Use this section to tell people how to report a vulnerability.
+Si deseas reportar una vulnerabilidad, sigue estos pasos:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+1. Ve a la sección de issues [https://github.com/Gatomo-Bunkers/Normal/issues](https://github.com/Gatomo-Bunkers/Normal/issues)
+2. Crea un issue
+3. Elige una plantilla o créala desde cero
+4. Etiqueta el issue para saber qué tipo de issue es
+
+También puedes entrar al server de soporte de Discord
+[https://invite.gg/gatomo](https://invite.gg/gatomo)
