@@ -273,6 +273,8 @@ module.exports = class extends Language {
             COMMAND_INVITE_TEXT_LINK: 'Link de invitación',
             COMMAND_INVITE_LINK: '[Click aquí para invitar](https://discord.com/api/oauth2/authorize?client_id=698568850651873299&permissions=8&scope=bot)',
 
+            //test
+            COMMAND_TEST: (message)=> `${message.author.username} abrazó a ${user.username}`
             //ban
             /*COMMAND_BAN_DESCRIPTION: 'Banea a un usuario del server',
             COMMAND_BAN_AUTOBAN: 'Porqué te banearías a tí mismo? No tiene sentido :v',

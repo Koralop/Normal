@@ -36,7 +36,7 @@ module.exports = class extends Command {
 
         message.send(
             new MessageEmbed()
-            .setTitle(`${message.author.username} abrazó a ${user.username}`)
+            .setTitle(message.language.get('COMMAND_TEST'))
             .setImage(hugimg.url)
             .setColor('RANDOM')
         );
