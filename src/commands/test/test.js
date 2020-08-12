@@ -30,7 +30,7 @@ module.exports = class extends Command {
         
     async run(message, [user]) {
         //nekos.life
-        var hugimg = await neko.sfw.hug();
+        var testimg = await neko.sfw.baka();
  
         
         if (user.id === message.author.id) {
@@ -39,14 +39,14 @@ module.exports = class extends Command {
             message.send(
                 new MessageEmbed()
                 .setTitle(`${message.author.username}, te doy un abrazo`)
-                .setImage(hugimg.url)
+                .setImage(testimg.url)
                 .setColor('RANDOM')
             );
         } else {
             message.send(
                 new MessageEmbed()
                 .setTitle(`${message.author.username} abrazó a ${user.username}`)
-                .setImage(hugimg.url)
+                .setImage(testimg.url)
                 .setColor('RANDOM')
             );
         }
