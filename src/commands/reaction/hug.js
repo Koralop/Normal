@@ -24,9 +24,8 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: 'Comando de prueva',
+            description: language => language.get('COMMAND_HUG_DESCRIPTION'),
             quotedStringSupport: false,
-            extendedHelp: 'No extended help available ;-; .',
             usage: '<user:user>'
         });
     }
@@ -37,18 +36,18 @@ module.exports = class extends Command {
 
 
         if (user.id === message.author.id) {
-            message.send('<:Tor:731095612665102437>・No puedes abrazarte a tí mismo. Si estás solo, usa el comando sad (no creado)')
+            message.send(message.language.get('COMMAND_HUG_ALONE'))
         } else if (user.id === this.client.user.id) {
             message.send(
                 new MessageEmbed()
-                .setTitle(`${message.author.username}, te doy un abrazo`)
+                .setTitle(`${message.author.username}, ${message.language.get('COMMAND_HUG_NORMALHUGS')}`)
                 .setImage(hugimg.url)
                 .setColor('RANDOM')
             );
         } else {
             message.send(
                 new MessageEmbed()
-                .setTitle(`${message.author.username} abrazó a ${user.username}`)
+                .setTitle(`${message.author.username} ${message.language.get('COMMAND_HUG')} ${user.username}`)
                 .setImage(hugimg.url)
                 .setColor('RANDOM')
             );
