@@ -282,7 +282,7 @@ module.exports = class extends Language {
             COMMAND_BAN_MEMBERNOTBANEABLE: 'No puedo banear a este usuario'*/
 
             //hug
-            COMMAND_HUG_
+            //COMMAND_HUG_
         };
     }
 
