@@ -283,7 +283,7 @@ module.exports = class extends Language {
 
             //hug
             COMMAND_HUG_DESCRIPTION: 'Abraza a alguien para consolarlo o lo que sea',
-            COMMAND_HUG: 'abraza a',
+            COMMAND_HUG: 'abrazó a',
             COMMAND_HUG_ALONE: '<:Tor:731095612665102437>・No puedes abrazarte a tí mismo. Si estás solo, usa el comando sad',
             COMMAND_HUG_NORMALHUGS: 'te doy un abrazo'
         };
