@@ -12,13 +12,12 @@ module.exports = class extends Command {
 
     constructor(...args) {
         super(...args, {
-            name: 'test',
+            name: 'hug',
             enabled: true,
             runIn: ['text'],
             cooldown: 0,
             deletable: false,
             bucket: 1,
-            aliases: ['commandtest', 'testcommand'],
             guarded: false,
             nsfw: false,
             permissionLevel: 0,

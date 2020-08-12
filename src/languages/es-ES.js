@@ -274,12 +274,15 @@ module.exports = class extends Language {
             COMMAND_INVITE_TEXT_LINK: 'Link de invitación',
             COMMAND_INVITE_LINK: '[Click aquí para invitar](https://discord.com/api/oauth2/authorize?client_id=698568850651873299&permissions=8&scope=bot)',
 
-            //ban
+            /*//ban
             COMMAND_BAN_DESCRIPTION: 'Banea a un usuario del server',
             COMMAND_BAN_AUTOBAN: 'Porqué te banearías a tí mismo? No tiene sentido :v',
             COMMAND_BAN_NORMALBAN: 'Por Por ... porqué me quieres banear? que he hecho? ;-; <:Tor:731095612665102437>',
             COMMAND_BAN_ROLE: '<a:mal:692810345286205570>・No puedes banear a este usuario',
-            COMMAND_BAN_MEMBERNOTBANEABLE: 'No puedo banear a este usuario'
+            COMMAND_BAN_MEMBERNOTBANEABLE: 'No puedo banear a este usuario'*/
+
+            //hug
+            COMMAND_HUG_
         };
     }
 
