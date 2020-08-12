@@ -33,13 +33,24 @@ module.exports = class extends Command {
         var hugimg = await neko.sfw.hug();
  
         
-
-        message.send(
-            new MessageEmbed()
-            .setTitle(message.language.get('COMMAND_TEST'))
-            .setImage(hugimg.url)
-            .setColor('RANDOM')
-        );
+        if (user.id === message.author.id) {
+            message.send('<:Tor:731095612665102437>・No puedes abrazarte a tí mismo. Si estás solo, usa el comando sad (no creado)')
+        } else if (user.id === this.client.user.id) {
+            message.send(
+                new MessageEmbed()
+                .setTitle(`${message.author.username}, te doy un abrazo`)
+                .setImage(hugimg.url)
+                .setColor('RANDOM')
+            );
+        } else {
+            message.send(
+                new MessageEmbed()
+                .setTitle(`${message.author.username} abrazó a ${user.username}`)
+                .setImage(hugimg.url)
+                .setColor('RANDOM')
+            );
+        }
+        
     }
         
 }
