@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://discordapp.com/oauth2/authorize?client_id=507073349336432640&permissions=3072&scope=bot"><img src="https://cdn.discordapp.com/attachments/707537070641381438/740987659597643857/cd1415975358b266f128b57bccb95b36.png" width="256" height="256" alt="Husky" /></a>
+    <a href="https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true"><img src="https://cdn.discordapp.com/attachments/707537070641381438/740987659597643857/cd1415975358b266f128b57bccb95b36.png" width="256" height="256" alt="Husky" /></a>
   </p>
   
   <br />
@@ -33,7 +33,7 @@
  Un bot de Discord que siempre tiene comandos nuevos
  
 
-# [INVITAR AL SERVER (Click aquí)](https://discord.com/api/oauth2/authorize?client_id=698568850651873299&permissions=8&scope=bot)
+# [INVITAR AL SERVER (Click aquí)](https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true)
 
 
 ## INFORMACIÓN
