@@ -6,10 +6,7 @@ const {
 module.exports = class extends Language {
 
     constructor(...args) {
-        super(...args, {
-            name: 'Español',
-            enabled: true
-        });
+        super(...args);
         this.language = {
 
 
