@@ -4,9 +4,9 @@
   "description": "Un bot que siempre tiene comandos nuevos",
   "main": "normal.js",
   "dependencies": {
-    "discord.js": "^12.2.0",
+    "discord.js": "github:discordjs/discord.js",
     "dotenv": "^8.2.0",
-    "klasa": "^0.5.0",
+    "klasa": "github:dirigeants/klasa#v0.5.0",
     "nekos.life": "^2.0.7"
   },
   "devDependencies": {},
