@@ -6,7 +6,10 @@ const {
 module.exports = class extends Language {
 
     constructor(...args) {
-        super(...args);
+        super(...args, {
+            name: 'Español',
+            enabled: true
+        });
         this.language = {
 
 
@@ -273,6 +276,18 @@ module.exports = class extends Language {
             COMMAND_INVITE_TEXT: 'Invite a Normal para añadirlo a su server',
             COMMAND_INVITE_TEXT_LINK: 'Link de invitación',
             COMMAND_INVITE_LINK: '[Click aquí para invitar](https://discord.com/api/oauth2/authorize?client_id=698568850651873299&permissions=8&scope=bot)',
+
+            /*//donate
+            COMMAND_DONATE_DESCRIPTION: 'Muestra los enlaces para realizar una donación',
+            COMMAND_DONATE_TITLE: '💰・DONATE',
+            COMMAND_DONATE_TEXT: 'Si le gusta Normal, puede apoyarnos con un donativo. Agradecemos cualquier donativo, tanto pequeño como grande :3',
+            COMMAND_DONATE_PATREON_TITLE: 'Patreon:',
+            COMMAND_DONATE_PATREON: '',
+            COMMAND_DONATE_KOFI_TITLE: '',
+            COMMAND_DONATE_KOFI: '',
+            COMMAND_DONATE_PAYPAL_TITLE: '',
+            COMMAND_DONATE_PAYPAL: '',
+            COMMAND_DONATE_FOOTER: '',*/
 
             /*//ban
             COMMAND_BAN_DESCRIPTION: 'Banea a un usuario del server',

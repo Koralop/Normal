@@ -58,7 +58,17 @@ module.exports = class extends Command {
                    'https://cdn.discordapp.com/attachments/707537070641381438/723988382233002104/69701644_1379315478899840_4489972967450607616_n.png',
                    'https://cdn.discordapp.com/attachments/707537070641381438/723988408564711524/5db5bd52408c5.png',
                    'https://cdn.discordapp.com/attachments/707537070641381438/724326811156217896/FB_IMG_15445676848858191.png',
-                   'https://cdn.discordapp.com/attachments/707537070641381438/724637207071162408/image0.jpg'
+                   'https://cdn.discordapp.com/attachments/707537070641381438/724637207071162408/image0.jpg',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744630465926791238/e58b5803615eac1deb7fd1c1b4be8ae8.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744630594855501945/image0.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744630705279205376/D1JD86kXgAEQMYF.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744630805799895060/20200215_221318.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744631238094094407/EV6GP-uVcAA2Vcr.png',
+                   '',
+                   '',
+                   '',
+                   '',
+                   ''
                ];
 
                var memerandom = memearray[Math.floor(memearray.length * Math.random())];
