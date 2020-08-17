@@ -29,10 +29,10 @@ module.exports = class extends Command {
     }
         
     async run(message, [...args]) {
-          message.send(
+          message.author.send(
               new MessageEmbed()
               .setTitle(`${message.author.username} :v`)
-              //.setImage()
+              .setImage()
               .setColor('RANDOM')
           );
     }
