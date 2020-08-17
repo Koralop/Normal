@@ -8,13 +8,13 @@ module.exports = class extends Command {
 
     constructor(...args) {
         super(...args, {
-            name: 'stupid',
+            name: 'baka',
             enabled: true,
             runIn: ['text'],
             cooldown: 0,
             deletable: false,
             bucket: 1,
-            aliases: ['baka', 'idiot'],
+            aliases: ['stupid', 'idiot'],
             guarded: false,
             nsfw: false,
             permissionLevel: 0,
