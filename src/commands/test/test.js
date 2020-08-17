@@ -32,7 +32,7 @@ module.exports = class extends Command {
           message.send(
               new MessageEmbed()
               .setTitle(`${message.author.username} :v`)
-              .setImage(message.author.displayAvatarURL())
+              //.setImage()
               .setColor('RANDOM')
           );
     }
