@@ -29,10 +29,11 @@ module.exports = class extends Command {
     }
         
     async run(message, [...args]) {
+        message.send('tienes un mensaje en md, pvto')
           message.author.send(
               new MessageEmbed()
               .setTitle(`${message.author.username} :v`)
-              .setImage()
+              .setImage(this.client.user.avatarURL())
               .setColor('RANDOM')
           );
     }
