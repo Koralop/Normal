@@ -35,6 +35,8 @@ module.exports = class extends Command {
 
         if (user.id === message.author.id) {
             message.send('<:Tor:731095612665102437>・Tampoco seas tan sincero')
+        } else if (user.id === this.client.user.id) {
+            message.send('Estúpido tu >:U');
         } else {
             message.send(
                 new MessageEmbed()
@@ -43,7 +45,6 @@ module.exports = class extends Command {
                 .setColor('RANDOM')
             );
         }
-
     }
 
 }
