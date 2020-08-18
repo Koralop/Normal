@@ -20,38 +20,38 @@ module.exports = class extends Language {
 
 
             //settings
-            SETTING_GATEWAY_VALUE_FOR_KEY_NOEXT: (data, key) => `<:Tor:731095612665102437>・El valor '${data}' para la clave '${key}' no existe.`,
-            SETTING_GATEWAY_VALUE_FOR_KEY_ALREXT: (data, key) => `<:Tor:731095612665102437>・El valor '${data}' para la clave '${key}' ya existe.`,
-            SETTING_GATEWAY_SPECIFY_VALUE: '<:Tor:731095612665102437>・Debes especificar el valor para añadir o filtrar.',
-            SETTING_GATEWAY_KEY_NOT_ARRAY: (key) => `<:Tor:731095612665102437>・La clave '${key}' no es un Array.`,
-            SETTING_GATEWAY_KEY_NOEXT: (key) => `<:Tor:731095612665102437>・La clave '${key}' no existe en el esquema de datos.`,
-            SETTING_GATEWAY_INVALID_TYPE: '<:Tor:731095612665102437>・El parámetro \'type\' debe ser o \'add\' o \'remove\'.',
+            SETTING_GATEWAY_VALUE_FOR_KEY_NOEXT:    (data, key)     => `<:Tor:731095612665102437>・El valor '${data}' para la clave '${key}' no existe.`,
+            SETTING_GATEWAY_VALUE_FOR_KEY_ALREXT:   (data, key)     => `<:Tor:731095612665102437>・El valor '${data}' para la clave '${key}' ya existe.`,
+            SETTING_GATEWAY_KEY_NOT_ARRAY:          (key)           => `<:Tor:731095612665102437>・La clave '${key}' no es un Array.`,
+            SETTING_GATEWAY_KEY_NOEXT:              (key)           => `<:Tor:731095612665102437>・La clave '${key}' no existe en el esquema de datos.`,
+            SETTING_GATEWAY_INVALID_TYPE:   '<:Tor:731095612665102437>・El parámetro \'type\' debe ser o \'add\' o \'remove\'.',
+            SETTING_GATEWAY_SPECIFY_VALUE:  '<:Tor:731095612665102437>・Debes especificar el valor para añadir o filtrar.',
 
 
             //resolvers
-            RESOLVER_INVALID_CUSTOM: (name, type) => `<:Tor:731095612665102437>・${name} debe ser un nombre válido de ${type}`,
-            RESOLVER_INVALID_PIECE: (name, piece) => `<:Tor:731095612665102437>・${name} debe ser un nombre válido de ${piece}.`,
-            RESOLVER_INVALID_MESSAGE: (name) => `<:Tor:731095612665102437>・${name} debe ser una ID de mensaje válida.`,
-            RESOLVER_INVALID_USER: (name) => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de usuario válida.`,
-            RESOLVER_INVALID_MEMBER: (name) => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de usuario válida.`,
-            RESOLVER_INVALID_CHANNEL: (name) => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de canal válida.`,
-            RESOLVER_INVALID_EMOJI: (name) => `<:Tor:731095612665102437>・${name} debe ser un emoji válido.`,
-            RESOLVER_INVALID_GUILD: (name) => `<:Tor:731095612665102437>・${name} debe ser una ID válida de servidor.`,
-            RESOLVER_INVALID_ROLE: (name) => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de rol válida.`,
-            RESOLVER_INVALID_LITERAL: (name) => `<:Tor:731095612665102437>・Su opción no coincide con la siguiente posibilidad: ${name}`,
-            RESOLVER_INVALID_BOOL: (name) => `<:Tor:731095612665102437>・${name} debe ser 'true' o 'false'.`,
-            RESOLVER_INVALID_INT: (name) => `<:Tor:731095612665102437>・${name} debe ser un número entero.`,
-            RESOLVER_INVALID_FLOAT: (name) => `<:Tor:731095612665102437>・${name} debe ser un número.`,
-            RESOLVER_INVALID_REGEX_MATCH: (name, pattern) => `<:Tor:731095612665102437>・${name} debe seguir el patrón de la expresión regular \`${pattern}\``,
-            RESOLVER_INVALID_URL: (name) => `<:Tor:731095612665102437>・${name} debe ser un enlace URL válido.`,
-            RESOLVER_INVALID_DATE: (name) => `<:Tor:731095612665102437>・${name} debe ser una fecha válida.`,
-            RESOLVER_INVALID_DURATION: (name) => `<:Tor:731095612665102437>・${name} debe ser una duración válida.`,
-            RESOLVER_INVALID_TIME: (name) => `<:Tor:731095612665102437>・${name} debe ser una fecha o duración válida.`,
+            RESOLVER_INVALID_CUSTOM:        (name, type)                => `<:Tor:731095612665102437>・${name} debe ser un nombre válido de ${type}`,
+            RESOLVER_INVALID_PIECE:         (name, piece)               => `<:Tor:731095612665102437>・${name} debe ser un nombre válido de ${piece}.`,
+            RESOLVER_INVALID_MESSAGE:       (name)                      => `<:Tor:731095612665102437>・${name} debe ser una ID de mensaje válida.`,
+            RESOLVER_INVALID_USER:          (name)                      => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de usuario válida.`,
+            RESOLVER_INVALID_MEMBER:        (name)                      => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de usuario válida.`,
+            RESOLVER_INVALID_CHANNEL:       (name)                      => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de canal válida.`,
+            RESOLVER_INVALID_EMOJI:         (name)                      => `<:Tor:731095612665102437>・${name} debe ser un emoji válido.`,
+            RESOLVER_INVALID_GUILD:         (name)                      => `<:Tor:731095612665102437>・${name} debe ser una ID válida de servidor.`,
+            RESOLVER_INVALID_ROLE:          (name)                      => `<:Tor:731095612665102437>・${name} debe ser una mención o una ID de rol válida.`,
+            RESOLVER_INVALID_LITERAL:       (name)                      => `<:Tor:731095612665102437>・Su opción no coincide con la siguiente posibilidad: ${name}`,
+            RESOLVER_INVALID_BOOL:          (name)                      => `<:Tor:731095612665102437>・${name} debe ser 'true' o 'false'.`,
+            RESOLVER_INVALID_INT:           (name)                      => `<:Tor:731095612665102437>・${name} debe ser un número entero.`,
+            RESOLVER_INVALID_FLOAT:         (name)                      => `<:Tor:731095612665102437>・${name} debe ser un número.`,
+            RESOLVER_INVALID_REGEX_MATCH:   (name, pattern)             => `<:Tor:731095612665102437>・${name} debe seguir el patrón de la expresión regular \`${pattern}\``,
+            RESOLVER_INVALID_URL:           (name)                      => `<:Tor:731095612665102437>・${name} debe ser un enlace URL válido.`,
+            RESOLVER_INVALID_DATE:          (name)                      => `<:Tor:731095612665102437>・${name} debe ser una fecha válida.`,
+            RESOLVER_INVALID_DURATION:      (name)                      => `<:Tor:731095612665102437>・${name} debe ser una duración válida.`,
+            RESOLVER_INVALID_TIME:          (name)                      => `<:Tor:731095612665102437>・${name} debe ser una fecha o duración válida.`,
+            RESOLVER_MINMAX_EXACTLY:        (name, min, suffix)         => `<:Tor:731095612665102437>・${name} debe ser exactamente ${min}${suffix}.`,
+            RESOLVER_MINMAX_BOTH:           (name, min, max, suffix)    => `<:Tor:731095612665102437>・${name} debe estar entre ${min} y ${max}${suffix}.`,
+            RESOLVER_MINMAX_MIN:            (name, min, suffix)         => `<:Tor:731095612665102437>・${name} debe ser mayor que ${min}${suffix}.`,
+            RESOLVER_MINMAX_MAX:            (name, max, suffix)         => `<:Tor:731095612665102437>・${name} debe ser menor que ${max}${suffix}.`,
             RESOLVER_STRING_SUFFIX: ' carácteres',
-            RESOLVER_MINMAX_EXACTLY: (name, min, suffix) => `<:Tor:731095612665102437>・${name} debe ser exactamente ${min}${suffix}.`,
-            RESOLVER_MINMAX_BOTH: (name, min, max, suffix) => `<:Tor:731095612665102437>・${name} debe estar entre ${min} y ${max}${suffix}.`,
-            RESOLVER_MINMAX_MIN: (name, min, suffix) => `<:Tor:731095612665102437>・${name} debe ser mayor que ${min}${suffix}.`,
-            RESOLVER_MINMAX_MAX: (name, max, suffix) => `<:Tor:731095612665102437>・${name} debe ser menor que ${max}${suffix}.`,
 
 
             //reaction handler (a saber lo que es)
@@ -59,27 +59,28 @@ module.exports = class extends Language {
 
 
             //Command message
+            COMMANDMESSAGE_MISSING_REQUIRED:    (name)      => `<:Tor:731095612665102437>・${name} es un argumento requerido.`,
+            COMMANDMESSAGE_MISSING_OPTIONALS:   (possibles) => `<:Tor:731095612665102437>・Falta una opción requerida: (${possibles})`,
+            COMMANDMESSAGE_NOMATCH:             (possibles) => `<:Tor:731095612665102437>・Su opción no coincide con ninguna de las posibilidades: (${possibles})`,
             COMMANDMESSAGE_MISSING: '<:Tor:731095612665102437>・Faltan uno o más argumentos al final de la entrada.',
-            COMMANDMESSAGE_MISSING_REQUIRED: (name) => `<:Tor:731095612665102437>・${name} es un argumento requerido.`,
-            COMMANDMESSAGE_MISSING_OPTIONALS: (possibles) => `<:Tor:731095612665102437>・Falta una opción requerida: (${possibles})`,
-            COMMANDMESSAGE_NOMATCH: (possibles) => `<:Tor:731095612665102437>・Su opción no coincide con ninguna de las posibilidades: (${possibles})`,
 
 
             //Monitor
-            MONITOR_COMMAND_HANDLER_REPROMPT: (tag, error, time) => `🥾・${tag} | **${error}** | Usted tiene **${time}** segundos para responder este mensage emergente con un argumento válido. Escribe **"ABORT"** para abortar el mensaje emergente.`, // eslint-disable-line max-len
-            MONITOR_COMMAND_HANDLER_REPEATING_REPROMPT: (tag, name, time) => `🎁・${tag} | **${name}** es un argumento repetible | Usted tiene **${time}** segundos para responder este mensage emergente con un argumento válido. Escribe **"CANCEL"** para abortar el mensaje emergente.`, // eslint-disable-line max-len
+            MONITOR_COMMAND_HANDLER_REPROMPT:           (tag, error, time)  => `🥾・${tag} | **${error}** | Usted tiene **${time}** segundos para responder este mensage emergente con un argumento válido. Escribe **"ABORT"** para abortar el mensaje emergente.`, // eslint-disable-line max-len
+            MONITOR_COMMAND_HANDLER_REPEATING_REPROMPT: (tag, name, time)   => `🎁・${tag} | **${name}** es un argumento repetible | Usted tiene **${time}** segundos para responder este mensage emergente con un argumento válido. Escribe **"CANCEL"** para abortar el mensaje emergente.`, // eslint-disable-line max-len
             MONITOR_COMMAND_HANDLER_ABORTED: '🔚・**Abortado**',
 
 
             //inhibidores
-            INHIBITOR_COOLDOWN: (remaining) => `⏳・Acabas de usar este comando. Espérate ${remaining} segundos.`,
-            INHIBITOR_DISABLED: '🛌・**Este comando está desactivado**',
-            INHIBITOR_MISSING_BOT_PERMS: (missing) => `<:Tor:731095612665102437>・Permisos insuficientes, necesito: **${missing}**`,
-            INHIBITOR_NSFW: '🔞🔥・Porfavor, usa comandos NSFW en un canal NSFW, que aquí hay niños xd',
-            INHIBITOR_PERMISSIONS: '⛔・No tienes permisos para usar este comando',
-            INHIBITOR_REQUIRED_CONFIGS: (settings) => `<:Tor:731095612665102437>・El servidor no tiene las siguientes clave${settings.length > 1 ? 's' : ''}: **${settings.join(', ')}** y no puede ser ejecutado.`,
-            INHIBITOR_RUNIN: (types) => `<:Tor:731095612665102437>・Este comando sólo está disponible en los canales de tipo: ${types}.`,
-            INHIBITOR_RUNIN_NONE: (name) => `<:Tor:731095612665102437>・el comando ${name} no está configurado para ser ejecutado en cualquier canal.`,
+            INHIBITOR_COOLDOWN:             (remaining)     => `⏳・Acabas de usar este comando. Espérate ${remaining} segundos.`,
+            INHIBITOR_MISSING_BOT_PERMS:    (missing)       => `<:Tor:731095612665102437>・Permisos insuficientes, necesito: **${missing}**`,
+            INHIBITOR_REQUIRED_CONFIGS:     (settings)      => `<:Tor:731095612665102437>・El servidor no tiene las siguientes clave${settings.length > 1 ? 's' : ''}: **${settings.join(', ')}** y no puede ser ejecutado.`,
+            INHIBITOR_RUNIN:                (types)         => `<:Tor:731095612665102437>・Este comando sólo está disponible en los canales de tipo: ${types}.`,
+            INHIBITOR_RUNIN_NONE:           (name)          => `<:Tor:731095612665102437>・el comando ${name} no está configurado para ser ejecutado en cualquier canal.`,
+            INHIBITOR_NSFW:             '🔞🔥・Porfavor, usa comandos NSFW en un canal NSFW, que aquí hay niños xd',
+            INHIBITOR_PERMISSIONS:      '⛔・No tienes permisos para usar este comando',
+            INHIBITOR_DISABLED:         '🛌・**Este comando está desactivado**',
+            INHIBITOR_DISABLED_GLOBAL:  '🛌・**Este comando está desactivado**',
 
 
             //klasa command
@@ -295,6 +296,12 @@ module.exports = class extends Language {
 
             //hug
             COMMAND_HUG_DESCRIPTION: 'Abraza a alguien para consolarlo o lo que sea',
+            COMMAND_HUG: ['abrazó a', 'da un abrazo a', 'le da un abrazo a', 'abraza a', 'quiere abrazar a'],
+            COMMAND_HUG_ALONE: '<:Tor:731095612665102437>・No puedes abrazarte a tí mismo. Si estás solo, usa el comando sad',
+            COMMAND_HUG_NORMALHUGS: 'te doy un abrazo',
+
+            //kiss
+            COMMAND_HUG_DESCRIPTION: [],
             COMMAND_HUG: 'abrazó a',
             COMMAND_HUG_ALONE: '<:Tor:731095612665102437>・No puedes abrazarte a tí mismo. Si estás solo, usa el comando sad',
             COMMAND_HUG_NORMALHUGS: 'te doy un abrazo'
