@@ -8,7 +8,7 @@ module.exports = class extends Command {
 
     constructor(...args) {
         super(...args, {
-            name: 'kiss',
+            name: 'fuck',
             enabled: true,
             runIn: ['text'],
             cooldown: 0,
@@ -20,7 +20,7 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: ':v',
+            description: ':v comando nsfw :v (ke palo no kiero escribir ninguna descripcion)',
             quotedStringSupport: false,
             extendedHelp: 'No extended help available ;-; .',
             usage: '<user:user>'
@@ -39,7 +39,7 @@ module.exports = class extends Command {
         } else {
             message.send(
                 new MessageEmbed()
-                .setTitle(`${user.username} Se cogió a ${user.username}`)
+                .setTitle(`${message.author.username} Se cogió a ${user.username}`)
                 .setImage(henimg.url)
                 .setColor('RANDOM')
             );

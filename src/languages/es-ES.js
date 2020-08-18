@@ -292,18 +292,8 @@ module.exports = class extends Language {
             COMMAND_BAN_MEMBERNOTBANEABLE: 'No puedo banear a este usuario'*/
 
             //hug
-            COMMAND_HUG: (author, user) => [
-                `${author.username} **abrazó a** ${user.username}`,
-                `${author.username} **está abrazando a** ${user.username}`,
-                `${author.username} **da un abrazo a** ${user.username}`,
-                `${author.username} **le da un abrazo a** ${user.username}`,
-                `${author.username} **está dando un abrazo a** ${user.username}`
-            ],
-            COMMAND_HUG_NORMALHUGS: (author) => [
-                `${author.username}**, te doy un abrazo**`,
-                `${author.username}**, ven aqui que te abrazo**`,
-                `${author.username}**, te voy a abrazar**`
-            ],
+            COMMAND_HUG: `**abrazó a**`,
+            COMMAND_HUG_NORMALHUGS: `**, te doy un abrazo**`,
             COMMAND_HUG_DESCRIPTION:'Abraza a alguien para consolarlo',
             COMMAND_HUG_ALONE:      '**・No puedes abrazarte a tí mismo**',
 
