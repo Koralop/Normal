@@ -79,8 +79,8 @@ module.exports = class extends Language {
             INHIBITOR_RUNIN_NONE:           (name)          => `<a:mal:745335194063732789>**・el comando ${name} no está configurado para ser ejecutado en cualquier canal.**`,
             INHIBITOR_NSFW:             '<a:mal:745335194063732789>🔞🔥**・Porfavor, usa comandos NSFW en un canal NSFW**',
             INHIBITOR_PERMISSIONS:      '<a:mal:745335194063732789>⛔**・No tienes permisos para usar este comando**',
-            INHIBITOR_DISABLED:         '🛌**・**Este comando está desactivado**',
-            INHIBITOR_DISABLED_GLOBAL:  '🛌**・**Este comando está desactivado**',
+            INHIBITOR_DISABLED:         '🛌**・Este comando está desactivado**',
+            INHIBITOR_DISABLED_GLOBAL:  '🛌**・Este comando está desactivado**',
 
 
             //klasa command
