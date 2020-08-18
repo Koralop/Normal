@@ -51,36 +51,36 @@ module.exports = class extends Language {
             RESOLVER_MINMAX_BOTH:           (name, min, max, suffix)    => `<a:mal:745335194063732789>・**${name} debe estar entre ${min} y ${max}${suffix}.**`,
             RESOLVER_MINMAX_MIN:            (name, min, suffix)         => `<a:mal:745335194063732789>・**${name} debe ser mayor que ${min}${suffix}.**`,
             RESOLVER_MINMAX_MAX:            (name, max, suffix)         => `<a:mal:745335194063732789>・**${name} debe ser menor que ${max}${suffix}.**`,
-            RESOLVER_STRING_SUFFIX: ' carácteres',
+            RESOLVER_STRING_SUFFIX: '**carácteres**',
 
 
             //reaction handler (a saber lo que es)
-            REACTIONHANDLER_PROMPT: '<:que:724660944059498618>・¿A qué página te gustaría saltar?',
+            REACTIONHANDLER_PROMPT: '**¿A qué página te gustaría saltar?**',
 
 
             //Command message
-            COMMANDMESSAGE_MISSING_REQUIRED:    (name)      => `<:Tor:731095612665102437>・${name} es un argumento requerido.`,
-            COMMANDMESSAGE_MISSING_OPTIONALS:   (possibles) => `<:Tor:731095612665102437>・Falta una opción requerida: (${possibles})`,
-            COMMANDMESSAGE_NOMATCH:             (possibles) => `<:Tor:731095612665102437>・Su opción no coincide con ninguna de las posibilidades: (${possibles})`,
-            COMMANDMESSAGE_MISSING: '<:Tor:731095612665102437>・Faltan uno o más argumentos al final de la entrada.',
+            COMMANDMESSAGE_MISSING_REQUIRED:    (name)      => `<a:mal:745335194063732789>**・\`${name}\` es un argumento requerido.**`,
+            COMMANDMESSAGE_MISSING_OPTIONALS: (possibles) => `<a:mal:745335194063732789>**・Falta una opción requerida: (\`${possibles}\`)**`,
+            COMMANDMESSAGE_NOMATCH: (possibles) => `<a:mal:745335194063732789>**・Su opción no coincide con ninguna de las posibilidades: (\`${possibles}\`)**`,
+            COMMANDMESSAGE_MISSING: '<a:mal:745335194063732789>**・Faltan uno o más argumentos al final de la entrada.**',
 
 
             //Monitor
-            MONITOR_COMMAND_HANDLER_REPROMPT:           (tag, error, time)  => `🥾・${tag} | **${error}** | Usted tiene **${time}** segundos para responder este mensage emergente con un argumento válido. Escribe **"ABORT"** para abortar el mensaje emergente.`, // eslint-disable-line max-len
-            MONITOR_COMMAND_HANDLER_REPEATING_REPROMPT: (tag, name, time)   => `🎁・${tag} | **${name}** es un argumento repetible | Usted tiene **${time}** segundos para responder este mensage emergente con un argumento válido. Escribe **"CANCEL"** para abortar el mensaje emergente.`, // eslint-disable-line max-len
-            MONITOR_COMMAND_HANDLER_ABORTED: '🔚・**Abortado**',
+            MONITOR_COMMAND_HANDLER_REPROMPT: (tag, error, time) => `<a:mal:745335194063732789>**・\`${tag}\`\` | \`${error}\` | Usted tiene \`${time}\` segundos para responder este mensage emergente con un argumento válido. Escribe \`ABORT\` para abortar el mensaje emergente.**`, // eslint-disable-line max-len
+            MONITOR_COMMAND_HANDLER_REPEATING_REPROMPT: (tag, name, time) => `<a:mal:745335194063732789>**・\`${tag}\`\` | \`${name}\` es un argumento repetible | Usted tiene \`${time}\` segundos para responder este mensage emergente con un argumento válido. Escribe \`CANCEL\` para abortar el mensaje emergente.**`, // eslint-disable-line max-len
+            MONITOR_COMMAND_HANDLER_ABORTED: '🔚**・Abortado**',
 
 
             //inhibidores
-            INHIBITOR_COOLDOWN:             (remaining)     => `⏳・Acabas de usar este comando. Espérate ${remaining} segundos.`,
-            INHIBITOR_MISSING_BOT_PERMS:    (missing)       => `<:Tor:731095612665102437>・Permisos insuficientes, necesito: **${missing}**`,
-            INHIBITOR_REQUIRED_CONFIGS:     (settings)      => `<:Tor:731095612665102437>・El servidor no tiene las siguientes clave${settings.length > 1 ? 's' : ''}: **${settings.join(', ')}** y no puede ser ejecutado.`,
-            INHIBITOR_RUNIN:                (types)         => `<:Tor:731095612665102437>・Este comando sólo está disponible en los canales de tipo: ${types}.`,
-            INHIBITOR_RUNIN_NONE:           (name)          => `<:Tor:731095612665102437>・el comando ${name} no está configurado para ser ejecutado en cualquier canal.`,
-            INHIBITOR_NSFW:             '🔞🔥・Porfavor, usa comandos NSFW en un canal NSFW, que aquí hay niños xd',
-            INHIBITOR_PERMISSIONS:      '⛔・No tienes permisos para usar este comando',
-            INHIBITOR_DISABLED:         '🛌・**Este comando está desactivado**',
-            INHIBITOR_DISABLED_GLOBAL:  '🛌・**Este comando está desactivado**',
+            INHIBITOR_COOLDOWN: (remaining) => `⏳**・Acabas de usar este comando. Espérate \`${remaining}\`<a:mal:745335194063732789> segundos.**`,
+            INHIBITOR_MISSING_BOT_PERMS:    (missing)       => `<a:mal:745335194063732789>**・Permisos insuficientes, necesito: **${missing}**`,
+            INHIBITOR_REQUIRED_CONFIGS:     (settings)      => `<a:mal:745335194063732789>**・El servidor no tiene las siguientes clave${settings.length > 1 ? 's' : ''}: **${settings.join(', ')}** y no puede ser ejecutado.`,
+            INHIBITOR_RUNIN:                (types)         => `<a:mal:745335194063732789>**・Este comando sólo está disponible en los canales de tipo: ${types}.`,
+            INHIBITOR_RUNIN_NONE:           (name)          => `<a:mal:745335194063732789>**・el comando ${name} no está configurado para ser ejecutado en cualquier canal.`,
+            INHIBITOR_NSFW:             '🔞🔥**・Porfavor, usa comandos NSFW en un canal NSFW, que aquí hay niños xd',
+            INHIBITOR_PERMISSIONS:      '⛔**・No tienes permisos para usar este comando',
+            INHIBITOR_DISABLED:         '🛌**・**Este comando está desactivado**',
+            INHIBITOR_DISABLED_GLOBAL:  '🛌**・**Este comando está desactivado**',
 
 
             //klasa command
@@ -117,15 +117,15 @@ module.exports = class extends Language {
 
             //transfer
             COMMAND_TRANSFER_SUCCESS:   (type, name) => `🔀・Transferido la pieza tipo ${type}: ${name} con éxito.`,
-            COMMAND_TRANSFER_FAILED:    (type, name) => `<:Tor:731095612665102437>・La transferencia de la pieza tipo ${type}: ${name} al Cliente ha fallado. Por favor, revisa su consola.`,
-            COMMAND_TRANSFER_ERROR:     '<:Tor:731095612665102437>・El archivo ha sido transferido o nunca existió.',
+            COMMAND_TRANSFER_FAILED:    (type, name) => `<a:mal:745335194063732789>・La transferencia de la pieza tipo ${type}: ${name} al Cliente ha fallado. Por favor, revisa su consola.`,
+            COMMAND_TRANSFER_ERROR:     '<a:mal:745335194063732789>・El archivo ha sido transferido o nunca existió.',
 
             //reload
             COMMAND_RELOAD:     (type, name)    => `🔃・Recargado la pieza tipo ${type}: ${name}`,
             COMMAND_RELOAD_ALL: (type)          => `🔃・Recargado todas las piezas tipo ${type}.`,
             COMMAND_RELOAD_DESCRIPTION: 'Recarga una pieza de Klasa, o todas las piezas de un una colección.',
             COMMAND_RELOAD_EVERYTHING:  '🔃・Recargando todas las piezas',
-            COMMAND_RELOAD_FAILED:      '<:Tor:731095612665102437>・La recarga ha sido fallida',
+            COMMAND_RELOAD_FAILED:      '<a:mal:745335194063732789>・La recarga ha sido fallida',
 
             //reboot
             COMMAND_REBOOT:             '🔄・**Reiniciando...**・🔄',
@@ -179,7 +179,7 @@ module.exports = class extends Language {
             COMMAND_HELP_DESCRIPTION:   'Muestra el mensaje de ayuda para los comandos.',
             COMMAND_HELP_NO_EXTENDED:   'Descripción detallada no disponible.',
             COMMAND_HELP_DM:            '📨・La lista de comandos ha sido enviado a tus mensajes privados.',
-            COMMAND_HELP_NODM:          '<:Tor:731095612665102437>・Parece que tienes tus mensajes privados desactivados, no pude enviarte la lista de comandos.',
+            COMMAND_HELP_NODM:          '<a:mal:745335194063732789>・Parece que tienes tus mensajes privados desactivados, no pude enviarte la lista de comandos.',
             COMMAND_HELP_EXTENDED:      'Información Detallada ::',
 
             //eneable
@@ -287,7 +287,7 @@ module.exports = class extends Language {
             /*//ban
             COMMAND_BAN_DESCRIPTION: 'Banea a un usuario del server',
             COMMAND_BAN_AUTOBAN: 'Porqué te banearías a tí mismo? No tiene sentido :v',
-            COMMAND_BAN_NORMALBAN: 'Por Por ... porqué me quieres banear? que he hecho? ;-; <:Tor:731095612665102437>',
+            COMMAND_BAN_NORMALBAN: 'Por Por ... porqué me quieres banear? que he hecho? ;-; <a:mal:745335194063732789>',
             COMMAND_BAN_ROLE: '<a:mal:692810345286205570>・No puedes banear a este usuario',
             COMMAND_BAN_MEMBERNOTBANEABLE: 'No puedo banear a este usuario'*/
 
