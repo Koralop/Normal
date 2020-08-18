@@ -87,19 +87,19 @@ module.exports = class extends Language {
 
             //blacklist
             COMMAND_BLACKLIST_SUCCESS: (usersAdded, usersRemoved, guildsAdded, guildsRemoved) => [
-                usersAdded.length       ? `**🙍‍♂️・Usuarios añadidos**\n${util.codeBlock('', usersAdded.join(', '))}` : '',
-                usersRemoved.length     ? `**🙍‍♂️・Usuarios eliminados**\n${util.codeBlock('', usersRemoved.join(', '))}` : '',
-                guildsAdded.length      ? `**💻・Servidores añadidos**\n${util.codeBlock('', guildsAdded.join(', '))}` : '',
-                guildsRemoved.length    ? `**💻・Servidores eliminados**\n${util.codeBlock('', guildsRemoved.join(', '))}` : ''
+                usersAdded.length       ? `🙍‍♂️➕**・Usuarios añadidos al Blacklist:**\n${util.codeBlock('', usersAdded.join(', '))}` : '',
+                usersRemoved.length     ? `🙍‍♂️➖**・Usuarios eliminados al Blacklist:**\n${util.codeBlock('', usersRemoved.join(', '))}` : '',
+                guildsAdded.length      ? `💻➕**・Servidores añadidos al Blacklist:**\n${util.codeBlock('', guildsAdded.join(', '))}` : '',
+                guildsRemoved.length    ? `💻➖**・Servidores eliminados al Blacklist:**\n${util.codeBlock('', guildsRemoved.join(', '))}` : ''
             ].filter(val => val !== '').join('\n'),
             COMMAND_BLACKLIST_DESCRIPTION: '🏴・Añade y retira usuarios del Blacklist',
 
             //eval
-            COMMAND_EVAL_ERROR:         (time, output, type)    => `**❌・Error**:${output}\n**🧱・Tipo**:${type}\n${time}`,
-            COMMAND_EVAL_OUTPUT:        (time, output, type)    => `**🎍・Salida**:${output}\n**🧱・Tipo**:${type}\n${time}`,
-            COMMAND_EVAL_SENDFILE:      (time, type)            => `🖼・La salida era muy muy muy larga... Te lo envío en un archivo.\n**🧱・Tipo**:${type}\n${time}`,
-            COMMAND_EVAL_SENDCONSOLE:   (time, type)            => `🖼・La salida era muy muy larga... Revisa la consola.\n**🧱・Tipo**:${type}\n${time}`,
-            COMMAND_EVAL_DESCRIPTION:   '<:javascript:553682981622120484> <:JavaScriptECMA:703449987916496946>・Evalúa Javascript arbitrario. Reservado para Gátomo.',
+            COMMAND_EVAL_ERROR:         (time, output, type)    => `<a:mal:745335194063732789>**・Error**:${output}\n**🧱・Tipo**:${type}\n${time}`,
+            COMMAND_EVAL_OUTPUT:        (time, output, type)    => `<a:bien_circulo:745335492110843995>**・Salida**:${output}\n**🧱・Tipo**:${type}\n${time}`,
+            COMMAND_EVAL_SENDFILE:      (time, type)            => `<a:bien_circulo:745335492110843995>**・La salida era muy larga. Te lo envío en un archivo.**\n**🧱・Tipo**:${type}\n${time}`,
+            COMMAND_EVAL_SENDCONSOLE:   (time, type)            => `<a:bien_circulo:745335492110843995>**・La salida era muy larga y no se pudo enviar en archivo. Revisa la consola.**\n**🧱・Tipo**:${type}\n${time}`,
+            COMMAND_EVAL_DESCRIPTION:   'Evalúa Javascript arbitrario. Reservado para los desarrolladores del bot.',
             COMMAND_EVAL_EXTENDEDHELP: [
                     'El comando eval ejecuta el código tal y como está escrito, cualquier error será capturado.',
                     'También usa la herramienta "flags". Escribe --silent, --depth=number o --async para personalizar la salida.',
@@ -111,32 +111,32 @@ module.exports = class extends Language {
                 ].join('\n'),
 
             //unload
-            COMMAD_UNLOAD:  (type, name) => `📉・Descargado la pieza tipo ${type}: ${name}`,
-            COMMAND_UNLOAD: (type, name) => `📉・Descargado la pieza tipo ${type}: ${name}`,
-            COMMAND_UNLOAD_DESCRIPTION:     'Descarga una pieza de Klasa.',
+            COMMAD_UNLOAD:              (type, name) => `📉**・Descargado la pieza tipo \`${type}\`: \`${name}\`**`,
+            COMMAND_UNLOAD:             (type, name) => `📉**・Descargado la pieza tipo \`${type}\`: \`${name}\`**`,
+            COMMAND_UNLOAD_DESCRIPTION: 'Descarga una pieza de Klasa.',
 
             //transfer
-            COMMAND_TRANSFER_SUCCESS:   (type, name) => `🔀・Transferido la pieza tipo ${type}: ${name} con éxito.`,
-            COMMAND_TRANSFER_FAILED:    (type, name) => `<a:mal:745335194063732789>・La transferencia de la pieza tipo ${type}: ${name} al Cliente ha fallado. Por favor, revisa su consola.`,
-            COMMAND_TRANSFER_ERROR:     '<a:mal:745335194063732789>・El archivo ha sido transferido o nunca existió.',
+            COMMAND_TRANSFER_SUCCESS:   (type, name) => `🔀**・Transferido la pieza tipo \`${type}\`: \`${name}\` con éxito.**`,
+            COMMAND_TRANSFER_FAILED:    (type, name) => `<a:mal:745335194063732789>**・La transferencia de la pieza tipo \`${type}: \`${name}\` al Cliente ha fallado. Por favor, revisa su consola.**`,
+            COMMAND_TRANSFER_ERROR:     '<a:mal:745335194063732789>・**El archivo ha sido transferido o nunca existió.**',
 
             //reload
-            COMMAND_RELOAD:     (type, name)    => `🔃・Recargado la pieza tipo ${type}: ${name}`,
-            COMMAND_RELOAD_ALL: (type)          => `🔃・Recargado todas las piezas tipo ${type}.`,
+            COMMAND_RELOAD:     (type, name)    => `🔄**・Recargado la pieza tipo \`${type}\`: \`${name}\`**`,
+            COMMAND_RELOAD_ALL: (type)          => `🔄**・Recargado todas las piezas tipo \`${type}\`.**`,
             COMMAND_RELOAD_DESCRIPTION: 'Recarga una pieza de Klasa, o todas las piezas de un una colección.',
-            COMMAND_RELOAD_EVERYTHING:  '🔃・Recargando todas las piezas',
-            COMMAND_RELOAD_FAILED:      '<a:mal:745335194063732789>・La recarga ha sido fallida',
+            COMMAND_RELOAD_EVERYTHING:  '🔄**・Recargando todas las piezas**',
+            COMMAND_RELOAD_FAILED:      '<a:mal:745335194063732789>・**La recarga ha sido fallida**',
 
             //reboot
-            COMMAND_REBOOT:             '🔄・**Reiniciando...**・🔄',
+            COMMAND_REBOOT: '<a:cargando:745335606388719798>・**Reiniciando...**・<a:cargando:745335606388719798>',
             COMMAND_REBOOT_DESCRIPTION: 'Reinicia el bot.',
 
             //ping
-            COMMAND_PINGPONG: (diff, ping) => `🏓・¡Pong! \n \n <a:Lel:738106782089740410> ・El viaje duró: ${diff}ms \n <a:Rainbowflyinghearts:736074024156790834> ・Latido: ${ping}ms`,
-            COMMAND_PING:               '¿Ping?',
+            COMMAND_PINGPONG: (diff, ping) => `🏓**・¡Pong!** \n \n <a:Lel:738106782089740410>**・Ping: \`${diff}\`ms** \n <a:Rainbowflyinghearts:736074024156790834> **・Latido: \`${ping}\`ms**`,
+            COMMAND_PING:               '**¿Ping?**',
             COMMAND_PING_DESCRIPTION:   'Ejecuta una prueba de conexión a Discord.',
 
-            //invite
+            //invite (sustituido por invite mejorado)
             COMMAND_INVITE: (client) => [
                 `Para añadir ${client.user.username} a tu servidor de Discord:`,
                 `<${client.invite}>`,
@@ -183,33 +183,33 @@ module.exports = class extends Language {
             COMMAND_HELP_EXTENDED:      'Información Detallada ::',
 
             //eneable
-            COMMAND_ENABLE:             (type, name) => `📈・Activado con éxito la pieza tipo ${type}: ${name}`,
+            COMMAND_ENABLE: (type, name) => `📈**・Activado con éxito la pieza tipo \`${type}\`: \`${name}\`**`,
             COMMAND_ENABLE_DESCRIPTION: 'Re-activa temporalmente alguna pieza. Su estado original será restaurado al reiniciar.',
 
             //disable
-            COMMAND_DISABLE:                (type, name) => `📉・Desactivado con éxito la pieza ${type}: ${name}`,
+            COMMAND_DISABLE: (type, name) => `📉**・Desactivado con éxito la pieza \`${type}\`: \`${name}\`**`,
             COMMAND_DISABLE_DESCRIPTION:    'Re-desactiva temporalmente alguna pieza. Su estado original será restaurado al reiniciar.',
             COMMAND_DISABLE_WARN:           '⚠⚠⚠・**Probablemente no quieras desactivar eso, ya que no podrías ejecutar un comando para reactivarlo.**・⚠⚠⚠',
 
             //conf
-            COMMAND_CONF_GUARDED:   (name) => `La clave ${util.toTitleCase(name)} no debería ser desactivado.`,
-            COMMAND_CONF_UPDATED:   (key, response) => `Actualizado con éxito la clave **${key}**: \`${response}\``,
-            COMMAND_CONF_GET_NOEXT: (key) => `La clave **${key}** no parece existir.`,
-            COMMAND_CONF_GET:       (key, value) => `El valor para la clave **${key}** es: \`${value}\``,
-            COMMAND_CONF_RESET:     (key, response) => `El valor para la clave **${key}** ha sido restaurada a: \`${response}\``,
-            COMMAND_CONF_SERVER:    (key, list) => `**Configuración del servidor${key}**\n${list}`,
-            COMMAND_CONF_USER:      (key, list) => `**Configuración del usuario${key}**\n${list}`,
-            COMMAND_CONF_NOKEY:                 'Debes escribir una clave',
-            COMMAND_CONF_NOVALUE:               'Debes escribir un valor',
-            COMMAND_CONF_SERVER_DESCRIPTION:    'Define la configuración por servidor.',
-            COMMAND_CONF_USER_DESCRIPTION:      'Define la configuración por usuario.',
-            COMMAND_CONF_KEY_NOT_ARRAY:         'Esta clave no almacena múltiples valores. Usa la acción \'reset\'.',
+            COMMAND_CONF_GUARDED:   (name)          => `**La clave \`${util.toTitleCase(name)}\` no debería ser desactivado.**`,
+            COMMAND_CONF_UPDATED:   (key, response) => `**Actualizado con éxito la clave \`${key}\`: \`${response}\`**`,
+            COMMAND_CONF_GET_NOEXT: (key)           => `**La clave \`${key}\` no parece existir.**`,
+            COMMAND_CONF_GET:       (key, value)    => `**El valor para la clave \`${key}\` es: \`${value}\`**`,
+            COMMAND_CONF_RESET:     (key, response) => `**El valor para la clave \`${key}\` ha sido restaurada a: \`${response}\`**`,
+            COMMAND_CONF_SERVER:    (key, list)     => `**Configuración del servidor\`${key}\`**\n${list}`,
+            COMMAND_CONF_USER:      (key, list)     => `**Configuración del usuario\`${key}\`**\n${list}`,
+            COMMAND_CONF_NOKEY:                 '**Debes escribir una clave**',
+            COMMAND_CONF_NOVALUE:               '**Debes escribir un valor**',
+            COMMAND_CONF_SERVER_DESCRIPTION:    '**Define la configuración por servidor.**',
+            COMMAND_CONF_USER_DESCRIPTION:      '**Define la configuración por usuario.**',
+            COMMAND_CONF_KEY_NOT_ARRAY:         '**Esta clave no almacena múltiples valores. Usa la acción \'reset\'.**',
 
             //stats
             COMMAND_STATS: (memUsage, uptime, users, servers, channels, klasaVersion, discordVersion, processVersion, message) => [
                 '= 📊・STATS・📊 =',
                 '',
-                `• Uso Memoria  :: ${memUsage} MB`,
+                `• Uso RAM      :: ${memUsage} MB`,
                 `• T. Actividad :: ${uptime}`,
                 `• Usuarios     :: ${users}`,
                 `• Servidores   :: ${servers}`,
@@ -222,7 +222,7 @@ module.exports = class extends Language {
             COMMAND_STATS_DESCRIPTION: 'Provee algunos detalles sobre el bot y sus estadísticas.',
 
             //prompt
-            MESSAGE_PROMPT_TIMEOUT: 'El tiempo ha expirado.',
+            MESSAGE_PROMPT_TIMEOUT: '**El tiempo ha expirado.**',
 
 
             //Mis commands
