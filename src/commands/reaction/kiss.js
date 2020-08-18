@@ -39,7 +39,7 @@ module.exports = class extends Command {
         } else {
             message.send(
                 new MessageEmbed()
-                .setTitle(`${user.username} besó a ${user.username}`)
+                .setTitle(`${author.username} besó a ${user.username}`)
                 .setImage(kissimg.url)
                 .setColor('RANDOM')
             );
