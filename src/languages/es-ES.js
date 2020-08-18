@@ -72,13 +72,13 @@ module.exports = class extends Language {
 
 
             //inhibidores
-            INHIBITOR_COOLDOWN: (remaining) => `⏳**・Acabas de usar este comando. Espérate \`${remaining}\`<a:mal:745335194063732789> segundos.**`,
+            INHIBITOR_COOLDOWN:             (remaining)     => `⏳**・Acabas de usar este comando. Espérate \`${remaining}\`<a:mal:745335194063732789> segundos.**`,
             INHIBITOR_MISSING_BOT_PERMS:    (missing)       => `<a:mal:745335194063732789>**・Permisos insuficientes, necesito: **${missing}**`,
-            INHIBITOR_REQUIRED_CONFIGS:     (settings)      => `<a:mal:745335194063732789>**・El servidor no tiene las siguientes clave${settings.length > 1 ? 's' : ''}: **${settings.join(', ')}** y no puede ser ejecutado.`,
-            INHIBITOR_RUNIN:                (types)         => `<a:mal:745335194063732789>**・Este comando sólo está disponible en los canales de tipo: ${types}.`,
-            INHIBITOR_RUNIN_NONE:           (name)          => `<a:mal:745335194063732789>**・el comando ${name} no está configurado para ser ejecutado en cualquier canal.`,
-            INHIBITOR_NSFW:             '🔞🔥**・Porfavor, usa comandos NSFW en un canal NSFW, que aquí hay niños xd',
-            INHIBITOR_PERMISSIONS:      '⛔**・No tienes permisos para usar este comando',
+            INHIBITOR_REQUIRED_CONFIGS:     (settings)      => `<a:mal:745335194063732789>**・El servidor no tiene las siguientes clave\`${settings.length > 1 ? 's' : ''}\`: \`${settings.join(', ')}\` y no puede ser ejecutado.**`,
+            INHIBITOR_RUNIN:                (types)         => `<a:mal:745335194063732789>**・Este comando sólo está disponible en los canales de tipo: ${types}.**`,
+            INHIBITOR_RUNIN_NONE:           (name)          => `<a:mal:745335194063732789>**・el comando ${name} no está configurado para ser ejecutado en cualquier canal.**`,
+            INHIBITOR_NSFW:             '<a:mal:745335194063732789>🔞🔥**・Porfavor, usa comandos NSFW en un canal NSFW**',
+            INHIBITOR_PERMISSIONS:      '<a:mal:745335194063732789>⛔**・No tienes permisos para usar este comando**',
             INHIBITOR_DISABLED:         '🛌**・**Este comando está desactivado**',
             INHIBITOR_DISABLED_GLOBAL:  '🛌**・**Este comando está desactivado**',
 
