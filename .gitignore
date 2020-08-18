@@ -24,4 +24,3 @@ config.ts
 package-lock.json
 heroku_push.bat
 heroku_log.bat
-src/commands/nsfw/kiss.js
