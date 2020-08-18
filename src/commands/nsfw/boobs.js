@@ -8,7 +8,7 @@ module.exports = class extends Command {
 
     constructor(...args) {
         super(...args, {
-            name: 'fuck',
+            name: 'boobs',
             enabled: true,
             runIn: ['text'],
             cooldown: 0,
