@@ -6,10 +6,11 @@ No se si está bien o mal. Si esta mal porfavor ayudame a hacerlo mejor ;v
 ## Servicio
 Esto es lo que debe saber acerca del bot:
 1. **El servicio ofrecido es un bot de Discord** creado para entretenimiento diversión y moderación, no pretende incumplir la normativa estipulada por Discord para comunidades ni sus términos de servicio.
-2. **Este software no es un malware.**
-3. **El software posee licencia MIT.**
-4. **La distribución, edición y publicación de su código es legal** y como requisito personal para hacer uso del software es **mencionar al autor original Gátomo**
-5. **En desarrollo :v**
+2. **El bot no está afiliado con Discord.** Normal no tiene nada que ver con los proyectos de Discord o el desarrollo del mismo Discord.
+3. **Este software no es un malware.**
+4. **El software posee licencia MIT.**
+5. **La distribución, edición y publicación de su código es legal** y como requisito personal para hacer uso del software es **mencionar al autor original Gátomo**
+6. **En desarrollo :v**
 
 ## Privacidad
 Esto es lo que debe saber acerca del bot y la privacidad
