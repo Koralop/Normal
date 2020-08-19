@@ -30,7 +30,7 @@
 
 
 # GUÍA DE DESARROLLO DE NORMAL
-**SI DESEAS CONTRIBUIR AL DESARROLLO DE NORMAL, PORFAVOR, LÉETE ESTO PARA EVITAR ERRORES O MALENTENDIDOS, ENTRE OTROS Y TODO LO MOSTRADO AQUÍ ES UNA PEQUEÑA GUÍA, PARA MÁS INFORMACIÓN, REVISA LA PÁGINA OFICIAL DE KLASA**
+**SI DESEAS CONTRIBUIR AL DESARROLLO DE NORMAL, PORFAVOR, LÉETE ESTO PARA EVITAR ERRORES O MALENTENDIDOS, ENTRE OTROS. PARA MÁS INFORMACIÓN, REVISA LA PÁGINA OFICIAL DE KLASA**
 
 Buenas. Al parecer deseas participar en el desarrollo de Normal, pero tienes que tener claro algunas cosas antes de empezar.
 
@@ -46,62 +46,3 @@ Estos son los siguientes requisitos para participar en el desarrollo
 Si no comprendes muy bien JavaScript no te culpo, tampoco tengo muchos conocimientos xd.
 Para comprender como funciona Klasa.JS porfavor, visita la página de Klasa y léete la documentación.
 Si posees alguna duda, puedes consultarlo con Gátomo en el server oficial.
-
-## Comandos
-### Creación de comandos
-Para la creación de comandos, tienes que comprender algunas cosas
-Los comandos en Klasa son de la siguiente manera:
-```js
-const { Command } = require('klasa');
-module.exports = class extends Command { constructor(...args) {
-super(...args, {
-name: 'hola', //nombre del comando. al escribr n!hola el comando se ejecutará
-enabled: true, //si está activado o desactivado
-runIn: ['text', 'dm'], //Donde se puede ejecutar
-cooldown: 0, //pos eso, cooldown
-deletable: false, //ni idea
-bucket: 1, //no lo se
-aliases: ['hi', 'hello'], //otros nombres a los que el comando reaccionará. n!hola y n!hi harán lo mismo
-guarded: false, //no lo se
-nsfw: false, //indica si el comando es un comando nsfw
-permissionLevel: 0, //Nivel de permiso para usar el comando. Más info en la web de klasa
-requiredPermissions: [], //permisos requeridos para usar el comando
-requiredSettings: [], //no tengo ni idea de nada ;-;
-subcommands: false, //No lo se
-description: '', //Descripción del comando
-quotedStringSupport: false, //¿?
-usage: '', //Algunas cosas para que funcionen los comandos. Más info en Klasa
-usageDelim: undefined, //¿?
-extendedHelp: 'No extended help available.' //Información avanzada
-}); 
-} 
-async run(message, [...params]) {
-// Aquí irá el Código del bot con sus embeds if else y todas esas cosas
-}
-```
-
-El primer bloque será todos los datos del comando, su nombre, cooldown, si es nsfw, entre otros.
-El segundo bloque va el código que se ejecutará cuando el comando sea escrito
-
-### Uso de comandos
-Un comando ping sería así
-```js
-//todo lo anterior. Lo llamo ping, sin cooldown y con aliase PingPong
-async run(message, [...params]) {
-message.send('Pong!!!');
-}
-```
-Un embed sería así
-```js
-const  {MessageEmbed}  =  require('discord.js');
-//Todo lo anterior, pero en este caso importamos lo visto aquí
-message.send( new MessageEmbed()
-.setTitle('xd');
-.setColor('RANDOM')
-);
-```
-Para los embeds, se usa Discord.js
-
-## Lenguajes
-Lo siento pero me he cansado de escribir xd
-Ya seguiré desarrollándolo
