@@ -10,7 +10,7 @@ module.exports = class extends Command {
     constructor(...args) {
         super(...args, {
             name: 'donate',
-            enabled: true,
+            enabled: false,
             runIn: ['text'],
             cooldown: 0,
             deletable: false,
