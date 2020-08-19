@@ -36,8 +36,8 @@ module.exports = class extends Command {
             .setColor('RANDOM')
         );
         message.author.send('<a:bien_circulo:745335492110843995>');
-        message.author.send('**Dashboard:**\nhttps://dashboard.heroku.com/apps/normalbot');
+        message.author.send('**Dashboard:**\nhttps://dashboard.heroku.com/apps/normal-bot-hosting');
         message.author.send('<a:bien_circulo:745335492110843995>');
-        message.author.send('**Logs:**\nhttps://dashboard.heroku.com/apps/normalbot/logs')
+        message.author.send('**Logs:**\nhttps://dashboard.heroku.com/apps/normal-bot-hosting/logs')
     }
 }
