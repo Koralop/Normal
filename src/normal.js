@@ -10,5 +10,5 @@ new Client({
     typing: true,
     language: 'es-ES',
     readyMessage: (client) => `Listo!!!! Normal está listo para estar en ${client.guilds.cache.size}  servers ;3`
-}).login(token);
+}).login(token).catch(console.error);
 
