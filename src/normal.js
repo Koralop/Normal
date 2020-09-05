@@ -9,6 +9,7 @@ new Client({
     commandEditing: true,
     typing: true,
     language: 'es-ES',
+    // Mierda bug: presence: { activity: { name: `n!help ・ ${client.guilds.cache.size}  servers`, type: 'WATCHING' } },
     readyMessage: (client) => `Listo!!!! Normal está listo para estar en ${client.guilds.cache.size}  servers ;3`
-}).login(token);
+}).login(token).catch(console.error);
 
