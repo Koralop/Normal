@@ -297,7 +297,12 @@ module.exports = class extends Language {
             COMMAND_HUG_DESCRIPTION:'Abraza a alguien para consolarlo',
             COMMAND_HUG_ALONE:      '**・No puedes abrazarte a tí mismo**',
 
-
+            //test
+            COMMAND_TEST: [
+                'xd 1',
+                'xd 2',
+                'xd 3'
+            ]
         };
     }
 

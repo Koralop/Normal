@@ -29,11 +29,11 @@ module.exports = class extends Command {
     }
         
     async run(message, [...args]) {
-        message.send('tienes un mensaje en md, pvto')
-          message.author.send(
+          message.send(
               new MessageEmbed()
-              .setTitle(`${message.author.username} :v`)
-              .setImage(this.client.user.avatarURL())
+              .setTitle(message.language.get('COMMAND_TEST'[1]))
+              .setDescription(message.language.get('COMMAND_TEST'[2]))
+              .addField(message.language.get('COMMAND_TEST')[3])
               .setColor('RANDOM')
           );
     }
