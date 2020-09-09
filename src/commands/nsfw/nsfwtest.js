@@ -28,7 +28,7 @@ module.exports = class extends Command {
 
     async run(message, [user]) {
         //nekos.life
-        var testimg = await neko.nsfw.pussyWankGif();
+        var testimg = await neko.nsfw.kemonomimi();
 
             message.send(
                 new MessageEmbed()
