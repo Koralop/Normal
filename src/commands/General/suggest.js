@@ -22,9 +22,9 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: 'Envía un mensaje por MD a un usuario (uso para devs)',
+            description: 'Envía una sugerencia para el desarrollo de Normal',
             quotedStringSupport: false,
-            extendedHelp: 'Envía un mensaje a un usuario por MD para notificaciones del bot (blacklist, solicitud de algo, etc.)',
+            extendedHelp: 'Envía una sugerencia para el desarrollo de Normal. Usalo de forma responsalbe',
             usage: '[messageContent:...string]',
             usageDelim: ' '
         });
@@ -36,7 +36,7 @@ module.exports = class extends Command {
         message.send(
             new MessageEmbed()
             .setTitle('📨・Sugerencia enviada')
-            .setDescription(`Se ha enviado tu sugerencia`)
+            .setDescription(`Se ha enviado tu sugerencia. Haz un buen uso del comando`)
             .addField('Sugerencia:', `\n\`\`\`${messageContent}\`\`\``, false)
             .setThumbnail('https://media.giphy.com/media/3o6Mbfsf4DI4Cds5Ms/giphy.gif')
             .setTimestamp()
