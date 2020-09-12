@@ -29,7 +29,7 @@
 </div>
 
 # Normal
- Un bot de Discord que siempre tiene comandos nuevos
+ Un bot multipropósito para Discord usando Klasa
  
 
 # [INVITAR AL SERVER (Click aquí)](https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true)
