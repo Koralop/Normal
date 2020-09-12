@@ -35,7 +35,7 @@ module.exports = class extends Command {
             .setTitle(message.language.get('COMMAND_INVITE_TITLE'))
             .setDescription(message.language.get('COMMAND_INVITE_TEXT'))
             .addField(`${message.language.get('COMMAND_INVITE_TEXT_LINK')}`, `${message.language.get('COMMAND_INVITE_LINK')}`, false)
-            .addField('Server de soporte:', '[Click aquí](discord.gg)',false)
+            .addField('Server de soporte:', '[Click aquí](https://discord.gg/ZpWE57t)',false)
             .setThumbnail('https://media.giphy.com/media/2yvPrTHxX6wIQM0bWT/giphy.gif')
             .setColor('RANDOM')
         );
