@@ -9,7 +9,7 @@
     <a href="https://discord.gg/ZpWE57t"><img src="https://img.shields.io/discord/685949311443271744?color=7289DA&label=DISCORD&logo=DISCORD&style=for-the-badge" alt="Discord server" /></a>
   <a href="https://github.com/Gatomo-BUnkers/Normal/"><img src="https://img.shields.io/github/package-json/v/Gatomo-Bunkers/Normal?logo=Pinboard&style=for-the-badge" alt="Normal version" /></a>
   <a href="https://github.com/Gatomo-Bunkers/Normal/graphs/contributors"><img src="https://img.shields.io/github/contributors/Gatomo-Bunkers/Normal.svg?logo=Github&style=for-the-badge" alt="Contributors" /></a>
-
+<br/>
 <a href="https://top.gg/bot/698568850651873299" >
   <img src="https://top.gg/api/widget/status/698568850651873299.svg" alt="Normal" />
 </a>
