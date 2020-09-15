@@ -7,8 +7,8 @@
   <br />
   <p>
     <a href="https://discord.gg/ZpWE57t"><img src="https://img.shields.io/discord/685949311443271744?color=7289DA&label=DISCORD&logo=DISCORD&style=for-the-badge" alt="Discord server" /></a>
-  <a href="https://github.com/Gatomo-BUnkers/Normal/"><img src="https://img.shields.io/github/package-json/v/Gatomo-Bunkers/Normal?logo=Pinboard&style=for-the-badge" alt="Normal version" /></a>
-  <a href="https://github.com/Gatomo-Bunkers/Normal/graphs/contributors"><img src="https://img.shields.io/github/contributors/Gatomo-Bunkers/Normal.svg?logo=Github&style=for-the-badge" alt="Contributors" /></a>
+  <a href="https://github.com/normal-project/Normal/"><img src="https://img.shields.io/github/package-json/v/Gatomo-Bunkers/Normal?logo=Pinboard&style=for-the-badge" alt="Normal version" /></a>
+  <a href="https://github.com/normal-project/Normal/graphs/contributors"><img src="https://img.shields.io/github/contributors/Gatomo-Bunkers/Normal.svg?logo=Github&style=for-the-badge" alt="Contributors" /></a>
 <br/>
 <a href="https://top.gg/bot/698568850651873299" >
   <img src="https://top.gg/api/widget/status/698568850651873299.svg" alt="Normal" />
@@ -67,13 +67,13 @@ Pues vamos con los puntos para empezar a usarlo
 
 ## ¿Deseas ayudar al desarrollo?
 Si deseas ayudar a desarrollar Normal, porfavor, léete el CONTRIBUTING.md
-[Click aquí para ir al CONTRIBUTING.md](https://github.com/Gatomo-Community/Normal/blob/master/CONTRIBUTING.md)
+[Click aquí para ir al CONTRIBUTING.md](https://github.com/normal-project/Normal/blob/master/CONTRIBUTING.md)
 
 ## Contactos
 
 En caso de que necesites contactar con algún dev, te dejamos los siguientes enlaces hacia sus servers de Discord. Puedes resolver dudas o sugerir ideas, pero cumple siempre las normas y habla con educación.
 
-* [Server de Soporte (Click aquí)](https://discord.gg/NmW8kYv)
+* [Server de Soporte (Click aquí)](https://discord.gg/ZpWE57t)
 
 
 ## Klasa
