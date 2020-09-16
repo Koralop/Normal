@@ -25,7 +25,7 @@ module.exports = class extends Command {
             description: 'Envía una sugerencia para el desarrollo de Normal',
             quotedStringSupport: false,
             extendedHelp: 'Envía una sugerencia para el desarrollo de Normal. Usalo de forma responsalbe',
-            usage: '[messageContent:...string]',
+            usage: '<messageContent:...string>',
             usageDelim: ' '
         });
     }
