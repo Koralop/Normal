@@ -5,7 +5,7 @@ const token = process.env.TOKEN;
 
 new Client({
     fetchAllMembers: false,
-    prefix: ['n!', 'N!'], 
+    prefix: 'n!', 
     commandEditing: true,
     typing: true,
     language: 'es-ES',
