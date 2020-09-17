@@ -1,15 +1,15 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true"><img src="https://cdn.discordapp.com/attachments/707537070641381438/740987659597643857/cd1415975358b266f128b57bccb95b36.png" width="256" height="256" alt="Husky" /></a>
+    <a href="https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true"><img src="https://cdn.discordapp.com/attachments/707537070641381438/755462360818385026/unknown.png" width="256" height="256" alt="Normal" /></a>
   </p>
   
   <br />
   <p>
-    <a href="https://discord.gg/NmW8kYv"><img src="https://img.shields.io/discord/685949311443271744?color=7289DA&label=DISCORD&logo=DISCORD&style=for-the-badge" alt="Discord server" /></a>
-  <a href="https://github.com/Gatomo-BUnkers/Normal/"><img src="https://img.shields.io/github/package-json/v/Gatomo-Bunkers/Normal?logo=Pinboard&style=for-the-badge" alt="Normal version" /></a>
-  <a href="https://github.com/Gatomo-Bunkers/Normal/graphs/contributors"><img src="https://img.shields.io/github/contributors/Gatomo-Bunkers/Normal.svg?logo=Github&style=for-the-badge" alt="Contributors" /></a>
-
+    <a href="https://discord.gg/ZpWE57t"><img src="https://img.shields.io/discord/685949311443271744?color=7289DA&label=DISCORD&logo=DISCORD&style=for-the-badge" alt="Discord server" /></a>
+  <a href="https://github.com/normal-project/Normal/"><img src="https://img.shields.io/github/package-json/v/Gatomo-Bunkers/Normal?logo=Pinboard&style=for-the-badge" alt="Normal version" /></a>
+  <a href="https://github.com/normal-project/Normal/graphs/contributors"><img src="https://img.shields.io/github/contributors/Gatomo-Bunkers/Normal.svg?logo=Github&style=for-the-badge" alt="Contributors" /></a>
+<br/>
 <a href="https://top.gg/bot/698568850651873299" >
   <img src="https://top.gg/api/widget/status/698568850651873299.svg" alt="Normal" />
 </a>
@@ -28,9 +28,8 @@
   </p>
 </div>
 
-
 # Normal
- Un bot de Discord que siempre tiene comandos nuevos
+ Un bot sencillo y multipropósito
  
 
 # [INVITAR AL SERVER (Click aquí)](https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true)
@@ -54,7 +53,7 @@ Actualmente lo desarrollan Gátomo, con la ayuda de Phamzito, Lil MARCROCK y Cac
 
  - [Gátomo (Creador)](https://github.com/gatomo-oficial)
  - [Phamzito (ayudante)](https://github.com/phamzito)
- - [Lil MARCROCK (ayudante)]([https://github.com/MARCROCK22](https://github.com/MARCROCK22)
+ - [Lil MARCROCK (ayudante)](https://github.com/MARCROCK22)
 
 
 ## ¿Como empiezo a usarlo?
@@ -68,17 +67,16 @@ Pues vamos con los puntos para empezar a usarlo
 
 ## ¿Deseas ayudar al desarrollo?
 Si deseas ayudar a desarrollar Normal, porfavor, léete el CONTRIBUTING.md
-[Click aquí para ir al CONTRIBUTING.md](https://github.com/Gatomo-Bunkers/Normal/blob/master/CONTRIBUTING.md)
+[Click aquí para ir al CONTRIBUTING.md](https://github.com/normal-project/Normal/blob/master/CONTRIBUTING.md)
 
 ## Contactos
 
 En caso de que necesites contactar con algún dev, te dejamos los siguientes enlaces hacia sus servers de Discord. Puedes resolver dudas o sugerir ideas, pero cumple siempre las normas y habla con educación.
 
-* [Server de Soporte (Click aquí)](https://discord.gg/NmW8kYv)
+* [Server de Soporte (Click aquí)](https://discord.gg/ZpWE57t)
 
 
 ## Klasa
 - Klasa Website: [https://klasa.js.org/](https://klasa.js.org/)   
 - Klasa Core GitHub: [https://github.com/dirigeants/core](https://github.com/dirigeants/core)   
 - Klasa GitHub: [https://github.com/dirigeants/klasa](https://github.com/dirigeants/klasa)
-
