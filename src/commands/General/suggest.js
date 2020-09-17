@@ -49,7 +49,7 @@ module.exports = class extends Command {
             .setDescription('Hay una nueva sugerencia para Normal')
             .addField('Usuario:', message.author.tag, true)
             .addField('ID:', message.author.id, true)
-            .addField('Bot:', message.author.bot, true)
+            .addField('Bot:', `${message.author.bot? `✅` : `❎`}`, true)
             .addField('Sugerencia:', `\n\`\`\`${messageContent}\`\`\``, false)
             .setThumbnail('https://media.giphy.com/media/NFA61GS9qKZ68/giphy.gif')
             .setTimestamp()
