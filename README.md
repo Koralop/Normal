@@ -28,8 +28,8 @@
   </p>
 </div>
 
-# Normal
- Un bot sencillo y multipropósito
+# Normal Dev
+ La versión en desarrollo de un bot sencillo y multipropósito
  
 
 # [INVITAR AL SERVER (Click aquí)](https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true)
