@@ -34,6 +34,7 @@ module.exports = class extends Command {
                 .setTitle(`${message.author.username} no puede tener Nitro ;-;`)
                 .setImage('https://cdn.discordapp.com/attachments/707537070641381438/757357366378496050/Group1.jpg')
                 .setColor('RANDOM')
+.setFooter("Meme creado por Pham#3963")
             );
 
     }
