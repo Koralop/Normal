@@ -5,11 +5,14 @@ const token = process.env.TOKEN;
 
 new Client({
     fetchAllMembers: false,
-    prefix: ['n!', 'N!'],
+    prefix: ['n!'],
     commandEditing: true,
     typing: true,
     language: 'es-ES',
-    owners: ['497061687820812288', '685947556655923242'],
+    owners: ['497061687820812288', //Phamzito
+             '685947556655923242' //Gátomo
+             '507367752391196682' //lil
+    ],
     // Mierda bug: presence: { activity: { name: `n!help ・ ${client.guilds.cache.size}  servers`, type: 'WATCHING' } },
     readyMessage: (client) => `Listo!!!! Normal está listo para estar en ${client.guilds.cache.size}  servers ;3`
 }).login(token).catch(console.error);
