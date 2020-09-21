@@ -10,7 +10,7 @@ new Client({
     typing: true,
     language: 'es-ES',
     owners: ['497061687820812288', //Phamzito
-             '685947556655923242' //Gátomo
+             '685947556655923242', //Gátomo
              '507367752391196682' //lil
     ],
     // Mierda bug: presence: { activity: { name: `n!help ・ ${client.guilds.cache.size}  servers`, type: 'WATCHING' } },
