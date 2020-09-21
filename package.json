@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node dist/normal.js",
-    "build": "tsc *.ts"
+    "build": "tsc -b src"
   },
   "repository": {
     "type": "git",
