@@ -14,7 +14,7 @@ Esto es lo que debe saber acerca del bot:
 
 ## Privacidad
 Esto es lo que debe saber acerca del bot y la privacidad
-1. **El bot no recopila ninguna información personal del usuario** (imágenes, servers en los que está, documentos, contraseñas, etc.).
+1. **El bot no recopila ninguna información personal del usuario** (imágenes, documentos, contraseñas, etc.).
 2. **Se realizarán análisis estadísticos en base de los comandos que se usen.** Se realizará un seguimiento de los comandos que se usan con frecuencia para realizar un análisis estadístico y mejorar en la creación de nuevos comandos.
 3. **Se realiza un seguimiento de los servers en los que se encuentra el bot.**
 
