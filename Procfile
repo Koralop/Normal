@@ -1,1 +1,1 @@
-worker: npm start
+worker: start src/builder.bat
