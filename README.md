@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true"><img src="https://cdn.discordapp.com/attachments/707537070641381438/755462360818385026/unknown.png" width="256" height="256" alt="Normal" /></a>
+    <a href="https://discord.com/oauth2/authorize?client_id=698568850651873299&scope=bot&permissions=2146823423&internal_referrer=true"><img src="https://cdn.discordapp.com/attachments/707537070641381438/758290698138157086/unknown.png" width="256" height="256" alt="Normal" /></a>
   </p>
   
   <br />
