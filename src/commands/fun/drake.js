@@ -34,7 +34,6 @@ module.exports = class extends Command {
                 new MessageEmbed()
                 .setImage(`https://api.alexflipnote.dev/drake?top=${no}&bottom=${yes}`)
                 .setColor('RANDOM')
-.setTimestamp()
             );
     
 
