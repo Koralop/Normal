@@ -22,7 +22,7 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: 'Genera un meme Drake,
+            description: 'Genera un meme Drake',
             quotedStringSupport: false,
             usage: '<no:...string>, <yes:...string>'
         });
