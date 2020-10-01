@@ -37,6 +37,14 @@ module.exports = class extends Command {
         );
         //ya no se ni q hago xd
         message.send('https://cdn.discordapp.com/attachments/707537070641381438/739524968148107325/b775c50cce9c8e87e6c414516c16afaf.mp4');
-    }
+   
+//Analítica
+this.client.channels.cache.get('761206537041215488').send(
+            new MessageEmbed()
+            .setTitle('putin')
+            .setTimestamp()
+            .setColor('RANDOM')
+        );
+ }
 
 }
