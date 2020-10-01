@@ -35,6 +35,14 @@ module.exports = class extends Command {
                 .setImage(boobimg.url)
                 .setColor('RANDOM')
             );
+
+//Analítica
+this.client.channels.cache.get('761206537041215488').send(
+            new MessageEmbed()
+            .setTitle('boobs')
+            .setTimestamp()
+            .setColor('RANDOM')
+        );
         
     }
 
