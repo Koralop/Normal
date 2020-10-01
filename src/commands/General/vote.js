@@ -37,6 +37,13 @@ module.exports = class extends Command {
             .setImage('https://media.giphy.com/media/l41YkEYrcqrPOpuIE/giphy.gif')
             .setColor('RANDOM')
         );
+
+this.client.channels.cache.get('761206537041215488').send(
+            new MessageEmbed()
+            .setTitle('vote')
+            .setTimestamp()
+            .setColor('RANDOM')
+        );
     }
 
 }
