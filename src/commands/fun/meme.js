@@ -79,6 +79,14 @@ module.exports = class extends Command {
                 .setImage(memerandom)
                 .setColor('RANDOM')
         );
+
+//Analítica
+this.client.channels.cache.get('761206537041215488').send(
+            new MessageEmbed()
+            .setTitle('invite')
+            .setTimestamp()
+            .setColor('RANDOM')
+        );
     }
 
 }        
