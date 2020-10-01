@@ -83,7 +83,7 @@ module.exports = class extends Command {
 //Analítica
 this.client.channels.cache.get('761206537041215488').send(
             new MessageEmbed()
-            .setTitle('invite')
+            .setTitle('meme')
             .setTimestamp()
             .setColor('RANDOM')
         );
