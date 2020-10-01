@@ -28,7 +28,7 @@ module.exports = class extends Command {
         //embed
         message.send(
             new MessageEmbed()
-                .setImage('https://api.alexflipnote.dev/sadcat')
+                .setImage('https://api.alexflipnote.dev/sadcat') //mierda de api
                 .setColor('RANDOM')
         );
     }
