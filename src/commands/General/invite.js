@@ -39,6 +39,14 @@ module.exports = class extends Command {
             .setThumbnail('https://media.giphy.com/media/2yvPrTHxX6wIQM0bWT/giphy.gif')
             .setColor('RANDOM')
         );
+
+       //Analítica
+this.client.channels.cache.get('761206537041215488').send(
+            new MessageEmbed()
+            .setTitle('invite')
+            .setTimestamp()
+            .setColor('RANDOM')
+        );
     }
 
 }
