@@ -64,11 +64,21 @@ module.exports = class extends Command {
                    'https://cdn.discordapp.com/attachments/707537070641381438/744630705279205376/D1JD86kXgAEQMYF.png',
                    'https://cdn.discordapp.com/attachments/707537070641381438/744630805799895060/20200215_221318.png',
                    'https://cdn.discordapp.com/attachments/707537070641381438/744631238094094407/EV6GP-uVcAA2Vcr.png',
-                   '',
-                   '',
-                   '',
-                   '',
-                   ''
+                   'https://cdn.discordapp.com/attachments/707537070641381438/758040638641012806/FB_IMG_1597926918510.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744633691904409700/5f347dc1dfe81.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744633489353080883/5f31c95896d3b.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744633316933632120/5f318883046f5.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744633254568788008/5f37fc79eb0ca.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744633149882892398/5e74f103297a3.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744633096317698188/ETUXovNXkAAIeVa.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744633066793992192/5e7a9d5e37d97.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744632998447808512/5e841afad7da3.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744632953388138506/5e8d0b1629bf0.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744632855619043368/images_24.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744631795231752253/funny-minecraft-meme-in-honor-of-the-games-10th-anniversary.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744631688906145862/EUxqSBPX0AAQECC.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744631468537544827/maxresdefault.png',
+                   'https://cdn.discordapp.com/attachments/707537070641381438/744631387125973023/5e645c156c4c3.png'
                ];
 
                var memerandom = memearray[Math.floor(memearray.length * Math.random())];
