@@ -1,1 +1,1 @@
-console.log("pito");
+console.log(1+1);
