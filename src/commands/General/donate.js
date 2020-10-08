@@ -36,12 +36,21 @@ module.exports = class extends Command {
             .setDescription('Muchas gracias por escribir donate, tus apoyos nos ayudan a crecer. Te dejo algunos links para donar')
             .addField('<:peipal:763837083323858944>  PayPal', '[click aquí](https://paypal.me/gatomooficial)', true)
             .addField('<:coufi:763838830667104307>  Ko-Fi', '[click aquí](https://ko-fi.com/gatomo_oficial)', true)
-            .addField('<:patreoun:763837159098023969>  Patreon (no aconsejao por problemas xd)', '[click aquí](https://www.patreon.com/gatomo_oficial)', true)
+            .addField('<:patreoun:763837159098023969>  Patreon', '[click aquí](https://www.patreon.com/gatomo_oficial)', true)
             
             .setThumbnail('https://media.giphy.com/media/RMeWKLwvCMJzanG8p5/giphy.gif')
             .setColor('RANDOM')
             .setTimestamp()
         );
+        
+        //Analítica
+this.client.channels.cache.get('761206537041215488').send(
+            new MessageEmbed()
+            .setTitle('donate')
+            .setTimestamp()
+            .setColor('RANDOM')
+        );
     }
+   
 
 }
