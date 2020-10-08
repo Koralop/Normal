@@ -32,7 +32,7 @@ module.exports = class extends Command {
         //embed
         message.send(
             new MessageEmbed()
-            .setTitle('Donate')
+            .setTitle('💰・DONATE')
             .setDescription('Muchas gracias por escribir donate, tus apoyos nos ayudan a crecer. Te dejo algunos links para donar')
             .addField('<:peipal:763837083323858944>  PayPal', '[click aquí](https://paypal.me/gatomooficial)', true)
             .addField('<:coufi:763838830667104307>  Ko-Fi', '[click aquí](https://ko-fi.com/gatomo_oficial)', true)
