@@ -10,7 +10,7 @@ module.exports = class extends Command {
     constructor(...args) {
         super(...args, {
             name: 'donate',
-            enabled: false,
+            enabled: true,
             runIn: ['text'],
             cooldown: 0,
             deletable: false,
@@ -22,7 +22,7 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: language => language.get('COMMAND_INVITE_DESCRIPTION'),
+            description: 'Realiza un generoso donativo',
             quotedStringSupport: false,
         });
     }
@@ -32,11 +32,15 @@ module.exports = class extends Command {
         //embed
         message.send(
             new MessageEmbed()
-            .setTitle(message.language.get('COMMAND_INVITE_TITLE'))
-            .setDescription(message.language.get('COMMAND_INVITE_TEXT'))
-            .addField(`${message.language.get('COMMAND_INVITE_TEXT_LINK')}`, `${message.language.get('COMMAND_INVITE_LINK')}`, true)
-            .setImage('https://media.giphy.com/media/2yvPrTHxX6wIQM0bWT/giphy.gif')
+            .setTitle('Donate')
+            .setDescription('Muchas gracias por escribir donate, tus apoyos nos ayudan a crecer. Te dejo algunos links para donar')
+            .addField('<:peipal:763837083323858944>  PayPal', '[click aquí](https://paypal.me/gatomooficial)', true)
+            .addField('<:coufi:763838830667104307>  Ko-Fi', '[click aquí](https://ko-fi.com/gatomo_oficial)', true)
+            .addField('<:patreoun:763837159098023969>  Patreon (no aconsejao por problemas xd)', '[click aquí](https://www.patreon.com/gatomo_oficial)', true)
+            
+            .setThumbnail('https://media.giphy.com/media/RMeWKLwvCMJzanG8p5/giphy.gif')
             .setColor('RANDOM')
+            .setTimestamp()
         );
     }
 
