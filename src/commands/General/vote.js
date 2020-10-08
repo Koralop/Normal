@@ -34,7 +34,7 @@ module.exports = class extends Command {
             .setTitle(message.language.get('COMMAND_VOTE_TITLE'))
             .setDescription(message.language.get('COMMAND_VOTE_TEXT'))
             .addField(`${message.language.get('COMMAND_VOTE_TEXT_LINK')}`, `${message.language.get('COMMAND_VOTE_LINK')}`, true)
-            .setImage('https://media.giphy.com/media/l41YkEYrcqrPOpuIE/giphy.gif')
+            .setThumbnail('https://media.giphy.com/media/l41YkEYrcqrPOpuIE/giphy.gif')
             .setColor('RANDOM')
         );
 
