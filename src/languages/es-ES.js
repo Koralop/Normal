@@ -59,7 +59,9 @@ module.exports = class extends Language {
 
 
             //Command message
-            COMMANDMESSAGE_MISSING_REQUIRED:    (name)      => `<a:mal:745335194063732789>**・\`${name}\` es un argumento requerido.**`,
+            COMMANDMESSAGE_MISSING_REQUIRED: '<a:mal:745335194063732789>**・Menciona a alguien o escribe algo**',
+            // antes COMMANDMESSAGE_MISSING_REQUIRED:    (name)      => `<a:mal:745335194063732789>**・\`${name}\` es un argumento requerido.**`,
+            
             COMMANDMESSAGE_MISSING_OPTIONALS: (possibles) => `<a:mal:745335194063732789>**・Falta una opción requerida: (\`${possibles}\`)**`,
             COMMANDMESSAGE_NOMATCH: (possibles) => `<a:mal:745335194063732789>**・Su opción no coincide con ninguna de las posibilidades: (\`${possibles}\`)**`,
             COMMANDMESSAGE_MISSING: '<a:mal:745335194063732789>**・Faltan uno o más argumentos al final de la entrada.**',
