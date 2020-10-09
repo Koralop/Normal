@@ -29,7 +29,7 @@ module.exports = class extends Command {
 
     async run(message, [user]) {
     const avatar = user.displayAvatarURL({ size: 512 });
-    const avatarAuthor = user.displayAvatarURL({ size: 512 });
+    const avatarAuthor = author.displayAvatarURL({ size: 512 });
 
 
         if (user.id === message.author.id) {
