@@ -24,19 +24,19 @@ module.exports = class extends Command {
             description: 'Haz una votación básica',
             extendedHelp: 'Crea una votación simple( n!poll "pregunta" "opcion 1" "opcion 2") Ejemplo: n!poll "Cocacola o pepsi?" "Cocacola\" "pepsi"',
             quotedStringSupport: false,
-            usage: '"<question:...string>"',
+            usage: '<question:...string>',
             usageDelim: ' '
         });
     }
 
-    async run(message, [question, option1, option2]) {
+    async run(message, [question]) {
 
         //embed
         message.send(`:bar_chart: **${question}**`)
         message.send(
             new MessageEmbed()
-            .addField(':regional_indicator_a:',option1, false)
-            .addField(':regional_indicator_b:', option2, false)
+            .addField(':regional_indicator_a:',"option1", false)
+            .addField(':regional_indicator_b:', "option2", false)
             .setThumbnail('https://media.giphy.com/media/3og0IExSrnfW2kUaaI/giphy.gif')
             .setColor('RANDOM')
         );
