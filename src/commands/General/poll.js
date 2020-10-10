@@ -24,7 +24,7 @@ module.exports = class extends Command {
             description: 'Haz una votación básica',
             extendedHelp: 'Crea una votación simple( n!poll "pregunta" "opcion 1" "opcion 2") Ejemplo: n!poll "Cocacola o pepsi?" "Cocacola\" "pepsi"',
             quotedStringSupport: false,
-            usage: '<question:...string>',
+            usage: '"<question:...string>"',
             usageDelim: ' '
         });
     }
