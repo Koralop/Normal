@@ -40,6 +40,8 @@ module.exports = class extends Command {
             .setThumbnail('https://media.giphy.com/media/3og0IExSrnfW2kUaaI/giphy.gif')
             .setColor('RANDOM')
         );
+        message.react(':regional_indicator_a:');
+        message.react(':regional_indicator_b:');
 
        //Analítica
 this.client.channels.cache.get('761206537041215488').send(
