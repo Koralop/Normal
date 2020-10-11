@@ -12,13 +12,9 @@ module.exports = class extends Command {
 	}
 
 	run(msg, [question]) {
-		return (if(question.endsWith('?')){
-				msg.send(new MessageEmbed()
+		return msg.send(new MessageEmbed()
                 .setTitle(`🎱 ${answers[Math.floor(Math.random() * answers.length)]}`)
                 .setColor('RANDOM')
-			} else {
-				msg.send("Eso no es una pregunta, debe finalizar en ``?``");	 
-					 })
 	}
 
 };
