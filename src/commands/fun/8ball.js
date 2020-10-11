@@ -7,7 +7,7 @@ module.exports = class extends Command {
       name: '8ball',
 			aliases: ['8', 'magic', 'mirror'],
 			description: 'El 8ball de toda la vida',
-			usage: '<question:...string>'
+			usage: '<query:str>'
 		});
 	}
 
