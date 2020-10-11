@@ -14,7 +14,7 @@ module.exports = class extends Command {
 	run(msg, [question]) {
 		msg.send(new MessageEmbed()
                 .setTitle(`🎱 ${answers[Math.floor(Math.random() * answers.length)]}`)
-                .setColor('RANDOM')
+                .setColor('RANDOM'));
 	}
 
 };
