@@ -31,7 +31,7 @@ module.exports = class extends Command {
         //embed
         message.send(
             new MessageEmbed()
-            .setTitle(Créditos)
+            .setTitle("Créditos")
             .setDescription('Normal fue desarrollado gracias a la colaboración de distintos usuarios')
             .addField('Desarrollo', 'Gátomo, LilMARCROCK22', false)
             .addField('Diseño', 'Gátomo, Li', false)
