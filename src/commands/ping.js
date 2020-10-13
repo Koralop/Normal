@@ -1,5 +1,14 @@
-exports.run = async ( {message, client} ) => {
+//ping
+const { MessageEmbed } = require('discord.js');
 
-    message.channel.send(`${client.ws.ping} ms`);
+exports.run = async ({ message, client }) => {
+
+    message.channel.send(
+      new MessageEmbed()
+        .setColor("#03a9f4")
+        .setTitle("🏓 Pong")
+        .setDescription(`⏳ **Ping:** ${client.ws.ping} ms`, true)
+        .setTimestamp()
+    );
 
 }
