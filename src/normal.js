@@ -3,13 +3,6 @@ require('dotenv').config({ path: './src/.env' });
 
 const token = process.env.TOKEN;
 
-Client.user.setPresence({
-        status: "idle",
-        activity: {
-            name: "n!help || n!invite",
-            type: "WATCHING"
-        }
-    })
 
 new Client({
     fetchAllMembers: false,
