@@ -14,13 +14,11 @@ new Client({
              '507367752391196682' //lil
     ],
     // Mierda bug: presence: { activity: { name: `n!help ・ ${client.guilds.cache.size}  servers`, type: 'WATCHING' } },
-    Client.user.setPresence({
         status: "idle",
         activity: {
             name: "n!help || n!invite",
             type: "WATCHING"
-        }
-    })
+        },
     readyMessage: (client) => `Listo!!!! Normal está listo para estar en ${client.guilds.cache.size}  servers ;3`
 }).login(token).catch(console.error);
 
