@@ -1,20 +1,19 @@
 {
-  "dependencies": {
-    "@sapphire/framework": "sapphire-project/framework",
-    "@types/node": "^14.11.2",
-    "dotenv": "^8.2.0"
-  },
-  "scripts": {
-    "start": "node dist/normal.js"
-  },
   "name": "normal",
   "version": "1.0.0",
-  "description": "Un bot sencillo y multipropósito / a simple and multiprupose bot",
+  "description": "Un bot sencillo y multipropósito para Discord / a simple and multiprupose discord bot",
   "main": "src/normal.js",
   "repository": "https://github.com/normal-project/Normal.git",
-  "author": "Gátomo <Gatomociencia@gmail.com>",
+  "author": "Gátomo <Gatomociencoa@gmail.com> https://github.com/gatomo-oficial",
+  "scripts": {
+    "start": "node src/normal.js"
+  },
+  "collaborators": [
+    "Lil MARCROCK22 https://github.com/MARCROCK22",
+    "Phamzito https://github.com/phamzito"
+  ],
   "license": "MIT",
-  "engines": {
-    "node": ">=12.x"
+  "dependencies": {
+    "mongoose": "^5.10.9"
   }
 }
